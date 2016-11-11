@@ -1,0 +1,30 @@
+/* Floating Label */
+
+* {
+	box-sizing: border-box;
+}
+body {
+	color: #444;
+	font-family: Helvetica;
+}
+
+.input-group {
+	width: 340px;
+	margin: 50px auto;
+	position: relative;
+}
+input {
+	border: none;
+	border-bottom: 1px solid #888;
+	font-size: 20px;
+	width: 290px;
+}
+input:focus {
+	outline: none;
+}
+label {
+	color: #aaa;
+	position: absolute;
+	top: -20px;
+	left: 0;
+}
