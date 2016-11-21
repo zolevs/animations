@@ -18,13 +18,25 @@ input {
 	border-bottom: 1px solid #888;
 	font-size: 20px;
 	width: 290px;
+	transition: all .5s;
 }
 input:focus {
 	outline: none;
+	border-bottom-width: 2px;
+	border-color: #68f;
+
 }
 label {
 	color: #aaa;
-	position: absolute;
-	top: -20px;
+	position: absolute; /* pozicija u odnosu na roditelja .input-group */
+	top: 0px;
 	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: all .5s;
+}
+.label-top {
+	visibility: visible;
+	opacity: 1;
+	top: -20px;
 }
