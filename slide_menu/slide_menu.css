@@ -1,1 +1,34 @@
 /* CSS Slide menu */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	/*font-size: 63.5%;*/
+	font-family: Roboto, serif;
+	height: 100%;
+}
+body{
+	font-size: 1.5rem;
+	line-height: 2.8rem;
+	height: 100%;
+}
+.wrapper {
+	height: 100%;
+}
+.container {
+	margin: 0 15px;
+}
+.row {
+	padding: -15px;
+	margin: 15px 0;
+}
+.row:before,
+.row:after {
+	content: '';
+	display: table;
+}
+nav li {
+	padding: 8px;
+}
