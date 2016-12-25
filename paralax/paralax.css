@@ -1,0 +1,49 @@
+/* Paralax scroll */
+html{
+	box-sizing: border-box;
+	overflow: hidden;
+}
+/**, *::before, *::after{
+	box-sizing: inherit;
+}*/
+
+body{
+	height: 100vh;
+	margin: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+
+	-webkit-perspective: 1px;
+	perspective: 1px;
+}
+img{
+	display: block;
+	width: 100%;
+}
+.paralax-group {
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+.back {
+	-webkit-transform: translateZ(-1px) scale(2);
+	transform: translateZ(-1px) scale(2);
+	position: relative;
+	top: calc(((100vh - 1vw)/4)* -2); /* formula for image fill on smaller screen */
+}
+.front {
+	background-color: #ccc;
+	padding: 10em 1em;
+	position: relative;
+	z-index: 500;
+}
+
+h2 {
+	-webkit-transform: translateZ(-.5px) scale(1.5);
+	transform: translateZ(-.5px) scale(1.5);
+	position: absolute;
+	top: 20em;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
