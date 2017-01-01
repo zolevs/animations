@@ -1,0 +1,35 @@
+/* Ribbon css */
+body {
+	background-color: #e0e0e0;
+	display: flex;
+	justify-content: center;
+}
+section {
+	width: 50vw;
+	height: 50vh;
+	background-color: #fff;
+	box-shadow: 5px 5px 10px #999;
+}
+p {
+	position: relative;
+	top: 1%;
+	margin-left: -4%;
+	padding: 5%;
+	background-color: #9c27b0;
+	color: #fff;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	box-shadow: 1px 1px 2px #333;
+}
+p:after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 0;
+	top: 100%;
+	border-right: 2vh solid #6e24aa; /*ovo je onaj mali trougao*/
+	border-bottom: 2vh solid transparent;
+	z-index: 0;
+
+}
