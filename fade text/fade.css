@@ -17,9 +17,12 @@ h1 {
 	font-size: 85px;
 	font-family: Arial, sans-serif;
 	text-shadow: 2px 2px 2px #333;
+	line-height: 370px;
 }
 .animatedText {
-	animation: fadeAndScale .3s ease-in;
+	animation: fadeAndScale .5s cubic-bezier(.33,.76,.59,.95);
+	/* ease-in; */
+	/* http://cubic-bezier.com/ je koriscen kao generator */
 	transform-origin: center bottom;
 }
 @keyframes fadeAndScale {
