@@ -1,0 +1,39 @@
+/* Border around button - animation */
+.wrapper {
+	width: 200px;
+	height: 80px;
+	margin: 200px;
+}
+
+.container {
+	position: relative;
+	width: 200px;
+	height: 80px;
+}
+
+.front {
+	position: absolute;
+	width: 200px;
+	height: 80px;
+	background-color: #00a7db;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+}
+a {
+	text-decoration: none;
+}
+.back {
+	position: absolute;
+	width: 196px;
+	height: 76px;
+	border: 2px solid #00a7db;
+	transition: transform 400ms;
+}
+p {
+
+}
+.container:hover .back {
+	transform: scale(1.1,1.2);
+}
