@@ -1,0 +1,33 @@
+/* heart with css*/
+
+body {
+	background-color: #ccc;
+}
+.heart {
+	height: 50px;
+	width: 50px;
+	background-color: red;
+	display: inline-block;
+	margin: 50px 110px;
+	position: relative;
+	top: 0;
+	transform: rotate(-45deg);
+}
+.heart:before,
+.heart:after {
+	content: "";
+	background-color: red;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+}
+.heart:before {
+	top: -25px;
+	left: 0;
+}
+.heart:after {
+	left: 25px;
+	top: 0;
+
+}
