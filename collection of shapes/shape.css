@@ -1,0 +1,29 @@
+/* CSS for Shapes */
+hr {
+	margin: 30px 0;
+}
+.square {
+	width: 200px;
+	height: 200px;
+	background-color: #F9D00F;
+}
+
+.circle {
+	width: 200px;
+	height: 200px;
+	background-color: #f9d000;
+	border-radius: 50%;
+}
+.oval {
+	width: 200px;
+	height: 100px;
+	background-color: #f9d000;
+	border-radius: 100px / 50px;
+
+	/*
+		border-top-left-radius: 100px 50px;
+		border-top-right-radius: 100px 50px;
+		border-bottom-rigth-radius: 100px 50px;
+		border-bottom-left-radius: 100px 50px;
+	*/
+}
