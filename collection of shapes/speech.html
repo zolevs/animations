@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>More shapes with css</title>
+
+<style type="text/css">
+
+	.speech{
+		margin: 30px;
+		width: 120px;
+		height: 80px;
+		background-color: #00FF21;
+		position: absolute;
+
+		border-radius: 10px;
+	}
+	.speech:before {
+		content:"";
+		position: absolute;
+		width: 0;
+		height: 0;
+		border-top: 13px solid transparent;
+		border-right: 26px solid #00FF21;
+		border-bottom: 13px solid transparent;
+		margin: 13px 0 0 -25px;
+	}
+
+</style>
+
+</head>
+
+<body>
+	<div class="speech"></div>
+</body>
+</html>
