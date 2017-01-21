@@ -1,0 +1,25 @@
+/* CSS for transparent border */
+
+/*
+
+Setting a transparent border on an element will reveal the element’s own background under the border.
+
+By setting the background-clip property to padding-box, the borders will be made transparent.
+
+Transparency effect is achieved with the background-clip:padding-box. Without it, the background of the box also goes beneath the borders, making it non-transparent.
+
+
+*/
+
+.box {
+	float: left;
+	width: 300px;
+	height: 200px;
+	background-color: lightblue;
+
+	position: absolute;
+	top: 0;
+	left: 80px;
+	background-clip: padding-box;
+	border: 40px solid rgba(0,0,0,.4);
+}
