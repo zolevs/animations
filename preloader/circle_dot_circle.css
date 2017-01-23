@@ -1,0 +1,77 @@
+/* Small circle rotate animation for preloading */
+
+body {
+	background-color: #adadad;
+}
+.circle {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	padding: 0;
+	text-align: left;
+	/*background-color: green;*/
+	animation: circle 1.5s linear infinite;
+}
+.circle span {
+	position: absolute;
+	vertical-align: top;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: #222;
+	opacity: 1;
+	width: 8px;
+	height: 8px;
+	margin-left: 16px;
+	transform-origin: center 20px;
+}
+.circle span:nth-child(1){
+	transform: rotate(36deg);
+	opacity: 0.1;
+}
+.circle span:nth-child(2){
+	transform: rotate(72deg);
+	opacity: 0.2;
+}
+.circle span:nth-child(3){
+	transform: rotate(108deg);
+	opacity: 0.3;
+}
+.circle span:nth-child(4){
+	transform: rotate(144deg);
+	opacity: 0.4;
+}
+.circle span:nth-child(5){
+	transform: rotate(180deg);
+	opacity: 0.5;
+}
+.circle span:nth-child(6){
+	transform: rotate(216deg);
+	opacity: 0.6;
+}
+.circle span:nth-child(7){
+	transform: rotate(252deg);
+	opacity: 0.7;
+}
+.circle span:nth-child(8){
+	transform: rotate(288deg);
+	opacity: 0.8;
+}
+.circle span:nth-child(9){
+	transform: rotate(324deg);
+	opacity: 0.9;
+}
+/*.circle span:nth-child(10){*/
+
+@keyframes circle{
+	from
+		{
+			transform: rotate(0deg);
+		}
+	to
+		{
+			transform: rotate(360deg);
+		}
+	}
+
+}
+
