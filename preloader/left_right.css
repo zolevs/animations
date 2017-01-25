@@ -1,0 +1,31 @@
+/* Left right - preloader animation */
+body {
+	background-color: #ccc;
+}
+.leftRight {
+	margin: 150px;
+	/*width: 20px;
+	height: 20px;*/
+	display: inline-block;
+	padding: 0px;
+}
+.leftRight span {
+	vertical-align:top;
+	border-radius: 100%;
+	display: inline-block; /* bitns stavka */
+	background-color: red;
+	width: 8px;
+	height: 8px;
+	margin-top: -20px;
+	animation: leftRightAnim 0.8s ease-in-out infinite alternate;
+	transform-origin: center 20px;
+}
+
+@keyframes leftRightAnim {
+	from {
+		transform: rotate(120deg);
+	}
+	to {
+		transform: rotate(240deg);
+	}
+}
