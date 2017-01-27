@@ -1,0 +1,27 @@
+body {
+	background-color: #ddd;
+}
+
+.heart_shape {
+	position: relative;
+	width: 50px;
+}
+.heart_shape:before,
+.heart_shape:after {
+	background-color: #fd3803;
+	position: absolute;
+	width: 22px;
+	height: 35px;
+	top: 0;
+	left: 22px;
+	content:'';
+	border-radius: 50px 50px 0 0;
+	transform: rotate(-45deg);
+	transform-origin: 0 100%;
+}
+
+.heart_shape:after {
+	left:0;
+	transform: rotate(45deg);
+	transform-origin: 100% 100%;
+}
