@@ -1,0 +1,11 @@
+body {
+	animation: pulse 10s infinite;
+}
+@keyframes pulse {
+	0% {background-color: #f44336;}
+	20% {background-color: #e91e63}
+	40% {background-color: #9c2780;}
+	65% {background-color: #673ab7;}
+	84% {background-color: #2196f3;}
+	100% {background-color: #f44336;}
+}

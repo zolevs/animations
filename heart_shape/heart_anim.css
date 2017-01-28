@@ -18,13 +18,13 @@ body {
 	content:'';
 	border-radius: 50px 50px 0 0;
 	transform: rotate(-45deg);
-	transform-origin: 0 100%;
+	/*transform-origin: 0 100%;*/
 }
 
 .heart_shape:after {
 	left:0;
-	transform: rotate(45deg);
-	transform-origin: 100% 100%;
+	/*transform: rotate(45deg);*/
+	/*transform-origin: 100% 100%;*/
 }
 @keyframes heartBeats {
 	0% { transform: scale(1); }
