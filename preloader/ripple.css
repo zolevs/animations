@@ -1,0 +1,35 @@
+/* css for preloader Ripple effect*/
+body {
+	background-color: #ddd;
+}
+
+.ripple {
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+	/*background-color: red;*/
+	padding: 0;
+}
+.ripple span {
+	position: absolute;
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+	background-color: #000;
+	border-radius: 100%;
+	animation: ripple 1.6s linear infinite;
+}
+.ripple span:last-child{
+	animation-delay: -0.8s;
+}
+
+
+@keyframes ripple{
+	0% {transform: scale(0,0);
+		opacity: 0.5;
+	}
+	100% {
+		transform: scale (1,1);
+		opacity: 0;
+	}
+}
