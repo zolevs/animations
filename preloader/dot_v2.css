@@ -2,3 +2,42 @@
 body {
 	background-color: #ddd;
 }
+.dotPreloader {
+	/*display: inline-block;
+	padding: 0;
+	font-size: 0px;*/
+}
+.dotPreloader span {
+	/*vertical-align: middle;*/
+	width: 10px;
+	height: 10px;
+	background-color: #000;
+	border-radius: 100%;
+	display: inline-block;
+	margin: 3px 2px;
+	-webkit-animation: dotAnimation 0.8s linear infinite alternate;
+	animation: dotAnimation 0.8s linear infinite alternate;
+}
+.dotPreloader span:nth-child(1){
+	-webkit-animation-delay: -0.8s;
+	animation-delay: -0.8s;
+}
+.dotPreloader span:nth-child(2){
+	-webkit-animation-delay: -0.53333s;
+	animation-delay: -0.53333ss;
+}
+.dotPreloader span:nth-child(3){
+	 -webkit-animation-delay:-0.26666s;
+   animation-delay:-0.26666s;
+}
+
+
+
+@keyframes dotAnimation {
+	from {-webkit-transform: scale(0,0);}
+	to { -webkit-transform: scale(1,1);}
+}
+@keyframes dotAnimation {
+	from {transform: scale(0,0);}
+	to { transform: scale(1,1);}
+}
