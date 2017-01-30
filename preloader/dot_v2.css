@@ -32,7 +32,6 @@ body {
 }
 
 
-
 @keyframes dotAnimation {
 	from {-webkit-transform: scale(0,0);}
 	to { -webkit-transform: scale(1,1);}
@@ -40,4 +39,36 @@ body {
 @keyframes dotAnimation {
 	from {transform: scale(0,0);}
 	to { transform: scale(1,1);}
+}
+
+/* PULSE */
+.pulse {
+	width: 40px;
+	height: 20px;
+	display: inline-block;
+	margin-top: 50px;
+}
+.pulse span {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #000;
+	display: inline-block;
+	border-radius: 100%;
+	-webkit-animation: pulseAnim 0.7s linear infinite alternate;
+	animation: pulseAnim 0.7s linear infinite alternate;
+}
+.pulse span:last-child {
+	-webkit-animation-delay: -0.7s;
+	animation-delay: -0.7s;
+	margin-left: 20px;
+}
+
+@keyframes pulseAnim {
+	0% {transform: scale(0,0);}
+	100% {transform: scale(1,1);}
+}
+@-webkit-keyframes pulseAnim {
+	0% {-webkit-transform: scale(0,0);}
+	100% {-webkit-transform: scale(1,1);}
 }
