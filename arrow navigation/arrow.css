@@ -1,0 +1,22 @@
+/* arrow navigation css */
+body {
+	margin: 100px;
+	background-color: darkorchid;
+}
+.arrow {
+	position: absolute;
+	padding: 50px;
+	width: 50px;
+	height: 50px;
+	/*background-color: blue;*/
+	box-shadow: 1px -1px 0 1px plum inset;
+	transform: rotate(45deg);
+	transition: all 0.3s linear;
+
+	border: solid transparent;
+	border-width: 0 0 35px 35px;
+
+}
+.arrow:hover {
+	box-shadow: 2px -2px 0 2px lavender inset;
+}
