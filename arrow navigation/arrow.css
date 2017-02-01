@@ -3,6 +3,7 @@ body {
 	margin: 100px;
 	background-color: darkorchid;
 }
+
 .arrow {
 	position: absolute;
 	padding: 50px;
@@ -19,4 +20,9 @@ body {
 }
 .arrow:hover {
 	box-shadow: 2px -2px 0 2px lavender inset;
+}
+
+.next {
+	transform: rotate(225deg);
+	margin-left: 500px;
 }
