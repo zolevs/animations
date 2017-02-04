@@ -1,1 +1,24 @@
 /* Typewriter - Simple CSS */
+html,body{
+  display: block;
+  width: 70%;
+  height: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+.typewriter h1 {
+  overflow: hidden;
+  border-right: .2em solid;
+  white-space: nowrap;
+  animation: typeEffect 7s steps(50), cursorBlink .8s step-end infinite;
+}
+@keyframes typeEffect {
+  from {width: 0;}
+  to {width: 100%;}
+}
+@keyframes cursorBlink {
+  from, to{ border-color: transparent; }
+  50% {border-color: green;}
+}
