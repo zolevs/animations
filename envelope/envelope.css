@@ -1,1 +1,28 @@
 /* Envelope CSS */
+body {
+	padding: 25px;
+}
+
+.envelope {
+	width: 0px;
+	height: 0px;
+	background-color: /*red*/;
+	/*background: radial-gradient(gold, goldenrod);*/
+	border-top: 50px solid goldenrod;
+	border-right: 90px solid transparent;
+	border-left: 90px solid transparent;
+	border-bottom: 35px solid transparent;
+	position: relative;
+}
+
+.envelope:after {
+	content: "";
+	position: absolute;
+	width: 180px;
+	height: 90px;
+	background: radial-gradient(gold, goldenrod);
+	left: -90px;
+	top: -50px;
+	z-index: -1;
+}
+
