@@ -22,11 +22,11 @@ ul li {
 @keyframes animate {
 	0% {
 		opacity: 0;
-		transform: rotateY(90deg);
+		transform: rotateY(90deg) translateX(-30px);
 	}
 	50% {
 		opacity: 1;
-		transform: rotateY(0deg);
+		transform: rotateY(0deg) translateX(30px) scale(0.5);
 	}
 	100% {
 		opacity: 0;
