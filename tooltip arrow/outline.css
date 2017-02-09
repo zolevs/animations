@@ -3,4 +3,34 @@
 body {
 	background: #dd88ff;
 	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 700;
+}
+.container {
+	position: relative;
+	max-width: 600px;
+	height: auto;
+	border: 2px solid #fff;
+	margin: 100px auto;
+	padding: 30px;
+	box-sizing: border-box;
+}
+.container:after {
+	content: ""; /* uvek da se provo stavi da bi se ista pojavilo, obavezno kod pseudo elementata */
+	position: absolute;
+
+	width: 50px;
+	height: 50px;
+	/*background-color: red;*/
+	/*border-top: 2px solid #fff;*/
+	border-bottom: 2px solid #fff;
+	/*border-left: 2px solid #fff;*/
+	border-right: 2px solid #fff;
+	background-color: #dd88ff; /* to be transparent intersection line color must be the same as background color*/
+	top: 100%;
+	left: 50%;
+	margin-left: -25px;
+	transform: rotate(45deg);
+	margin-top: -25px;
 }
