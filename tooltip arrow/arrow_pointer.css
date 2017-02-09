@@ -2,3 +2,42 @@
 body {
 	background: tomato;
 }
+.basicContent {
+	width: 400px;
+	height: 300px;
+	background-color: #e74c3c;
+	border-radius: 10px;
+	margin: 0 auto;
+	padding: 30px;
+	font-family: Cambria, sans-serif;
+	font-size: 22px;
+	line-height: 2em;
+	color: #fff;
+	text-align: center;
+}
+.arrowBox {
+	width: 170px;
+	height: 60px;
+	line-height: 60px; /* only for one line vertical align */
+	background-color: #ffc728;
+	border-radius: 5px;
+	position: fixed;
+	top: 3em;
+	left: 30px;
+
+	color: #313131;
+	text-align: center;
+}
+.arrowBox:after{
+	content: "";
+	width: 0px;
+	height:0px;
+	position: absolute;
+	border-top: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-left: 10px solid #ffc728/*red*/;
+	border-bottom: 10px solid transparent;
+	left: 100%;
+	top: 50%;
+	margin-top: -10px;
+}
