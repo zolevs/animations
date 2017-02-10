@@ -1,0 +1,71 @@
+/* 3D Arrow pointer */
+
+body {
+	background-color: tomato;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 500px;
+	height: 300px;
+	background-color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%) skewY(-5deg);
+	padding: 20px;
+	box-sizing: border-box;
+	border: 2px solid #262626;
+	border-radius: 5px;
+	font-family: Arial;
+	box-shadow: -1px -1px 0 #444,
+				-2px -2px 0 #444,
+				-3px -3px 0 #444,
+				-4px -4px 0 #444,
+				-5px -5px 0 #444,
+				-6px -6px 0 #444;
+	transition: 2s;
+}
+.container:hover {
+	transform: translate(-50%,-50%) skewY(0deg);
+	box-shadow: 1px -1px 0 #444,
+				2px -2px 0 #444,
+				3px -3px 0 #444,
+				4px -4px 0 #444,
+				5px -5px 0 #444,
+				6px -6px 0 #444;
+}
+
+.container p {
+	margin: 0;
+	padding: 0;
+	color: #262626;
+}
+.container:before {
+	position: absolute;
+	content: "";
+	width: 30px;
+	height: 30px;
+	background-color: #fff;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%) rotate(45deg) translateY(23px);
+	border: 2px solid #262626;
+	border-top: 2px solid #fff ;
+	border-left: 2px solid #fff;
+}
+.container:after {
+	position: absolute;
+	content: "";
+	width: 100px;
+	height: 4px;
+	border-radius: 50%;
+	background-color: #000;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%) translateY(37px);
+	border: 2px solid #262626;
+	/*border-top: 2px solid #fff ;
+	border-left: 2px solid #fff;*/
+	filter: blur(5px);
+}
