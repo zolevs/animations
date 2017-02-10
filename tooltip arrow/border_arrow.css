@@ -2,3 +2,41 @@
 body {
 	background-color: #ffc728;
 }
+.box {
+	position: relative;
+	max-width: 450px;
+	height: auto;
+	background-color: #fff;
+	padding: 40px;
+	font-size: 16px;
+	line-height: 1.7;
+	margin: 50px auto;
+	box-sizing: border-box;
+
+	border: 4px solid #000;
+}
+.box:after, .box:before {
+	position: absolute;
+	content: "";
+	width: 0px;
+	height: 0px;
+	/*background-color: red;*/
+	top: 100%;
+	left: 50%;
+
+
+}
+.box:after {
+	border-top: 20px solid #fff;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-left: 20px solid transparent;
+	margin-left: -20px;
+}
+.box:before{
+	border-top: 25px solid #000;
+	border-right: 25px solid transparent;
+	border-bottom: 25px solid transparent;
+	border-left: 25px solid transparent;
+	margin-left: -25px ;
+}
