@@ -19,21 +19,21 @@ body {
 	border-radius: 5px;
 	font-family: Arial;
 	box-shadow: -1px -1px 0 #444,
-				-2px -2px 0 #444,
-				-3px -3px 0 #444,
-				-4px -4px 0 #444,
-				-5px -5px 0 #444,
-				-6px -6px 0 #444;
+				-2px -2px 0 #555,
+				-3px -3px 0 #666,
+				-4px -4px 0 #777,
+				-5px -5px 0 #888,
+				-6px -6px 0 #999;
 	transition: 2s;
 }
 .container:hover {
 	transform: translate(-50%,-50%) skewY(0deg);
 	box-shadow: 1px -1px 0 #444,
-				2px -2px 0 #444,
-				3px -3px 0 #444,
-				4px -4px 0 #444,
-				5px -5px 0 #444,
-				6px -6px 0 #444;
+				2px -2px 0 #555,
+				3px -3px 0 #666,
+				4px -4px 0 #777,
+				5px -5px 0 #888,
+				6px -6px 0 #999;
 }
 
 .container p {
