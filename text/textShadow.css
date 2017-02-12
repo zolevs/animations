@@ -1,0 +1,11 @@
+/* Text shadow css */
+* {
+	font-family: 'Righteous', cursive;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	position: relative;
+}
+body {
+	background-color: #aa3344;
+}
