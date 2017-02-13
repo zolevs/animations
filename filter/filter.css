@@ -1,0 +1,30 @@
+/* CSS filter effect */
+
+
+body {
+	background-color: ;
+}
+.box {
+	margin: 150px;
+	/*filter: blur(20px);*/
+	/*range from 0 to infinite */
+
+	/*filter: saturate(150%)*/
+	/*from 0 to 100% and after 100% become oversaturated*/
+
+	/*filter: grayscale(50%);*/
+	/* value of 100% is totaly greyscaled and 0% leave picture unchanged */
+
+	/*filter: brightness(200%);*/
+	/* value of 0% making picture totaly black thus 100% leave picture untouched, afther that values are linear multipliers on the effect */
+
+	/*filter: opacity();*/
+	/*filter: contrast();*/
+	/*filter: invert();*/
+
+	/*filter: sepia(50%);*/
+	/* value of 0% leaves the input unchanged and value of 100% is completly sepia*/
+
+
+
+}

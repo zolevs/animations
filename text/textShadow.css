@@ -24,7 +24,8 @@ h1 {
 	display: inline-block;
 	color: #fff;
 	font-size: 12em;
-	text-shadow: 0.03em .03em 0  #aa3344;/*hsla(230,40%,50%,1)*/;
+	text-shadow: 0.03em .03em 0  #aa3344;
+	/*hsla(230,40%,50%,1)*/;
 }
 h1:after {
 	content: attr(data-shadow);
