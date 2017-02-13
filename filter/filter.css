@@ -25,6 +25,16 @@ body {
 	/*filter: sepia(50%);*/
 	/* value of 0% leaves the input unchanged and value of 100% is completly sepia*/
 
+	/*filter: hue-rotate(30deg);*/
+	/* degre define hue rotation on the input image 0deg is unchanged*/
+
+	filter: contrast(175%) brightness(90%);
+
+	filter: drop-shadow(5px 5px 0px #000);
+
+
+
+
 
 
 }
