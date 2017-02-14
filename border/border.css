@@ -2,3 +2,23 @@
 body {
 	background-color: cadetblue;
 }
+li {
+	margin-bottom: 10px;
+}
+.link {
+	font-size: 2em;
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+}
+.link:after {
+	content: "";
+	display: block;
+	width: 0%;
+	height: 4px;
+	background-color: #000;
+	transition: width .3s linear;
+}
+.link:hover:after {
+	width: 100%;
+}
