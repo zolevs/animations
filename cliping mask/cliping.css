@@ -1,0 +1,22 @@
+/*CSS Cliping mask*/
+body {
+	margin: 0;
+	padding: 0;
+	background-color: tomato;
+}
+h1 {
+	font-size: 11em;
+	text-align: center;
+	font-weight: bold;
+	margin: 600px auto;
+	text-transform: uppercase;
+	background: url(nature31.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	-webkit-background-clip: text;
+	/*-moz-background-clip: text;*/
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	/*-moz-text-fill-color: transparent;*/
+	text-fill-color: transparent;
+}
