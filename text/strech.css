@@ -1,1 +1,39 @@
 /* CSS for text strech */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Nunito", sans-serif;
+	background-color: #af5053;
+}
+h1 {
+	color: #262626;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 24px;
+	border-top: 5px solid #262626;
+	border-bottom: 5px solid #262626;
+	padding: 15px 0;
+	transition: .4s;
+	display: block;
+}
+h1:hover {
+	animation: anim .5s;
+	letter-spacing: 20px;
+}
+
+@keyframes anim {
+	0% {
+		letter-spacing: 0px;
+	}
+	50% {
+		letter-spacing: -5px;
+	}
+	100% {
+		letter-spacing: 20px;
+	}
+}
