@@ -60,3 +60,4 @@
 - 23.02 - Text animation - strech /text - strech_2/
 - 24.02 - Bouncing ball animation /ball/
 - 25.02 - Ball inside box /ball - rotate ball/
+- 25.02 - Text fill animation /text/ :signal_strength:
