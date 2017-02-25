@@ -1,0 +1,48 @@
+/* CSS for text fill animation */
+body {
+	background-color: tomato;
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	margin: 200px 0;
+	padding: 0;
+	font-size: 6em;
+	font-weight: 900;
+	text-align: center;
+	position: relative;
+	color: #b0e9ff;
+	text-transform: uppercase;
+	text-shadow: 0 0px 1px rgba(0,0,0,0.2);
+}
+h1:before {
+	content: "Demo text!";
+	text-transform: uppercase;
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 25%;
+	color: #fff;
+	text-shadow: 0 0px 1px rgba(0,0,0,0.2);
+	overflow: hidden;
+	animation: anim 6s infinite linear;
+}
+@keyframes anim {
+	0% {
+		height: 25%;
+	}
+	25% {
+		height: 50%;
+	}
+	50% {
+		height: 30%;
+	}
+	75% {
+		height: 70%;
+	}
+	100% {
+		height: 25%;
+	}
+}
