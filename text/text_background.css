@@ -1,0 +1,26 @@
+/* Background pattern */
+body {
+	margin: 0;
+	padding: 0;
+	background: tomato;
+}
+h1 {
+	text-align: center;
+	margin-top: 150px;
+	font-size: 4em;
+	font-family: arial;
+	font-weight: 900;
+	text-transform: uppercase;
+	background: url('back_pattern.png');
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: anim 10s linear infinite;
+}
+@keyframes anim {
+	0% {
+		background-position: 0 0;
+	}
+	100% {
+		background-position: 100% 100%;
+	}
+}
