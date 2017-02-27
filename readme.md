@@ -63,3 +63,4 @@
 - 25.02 - Text fill animation /text/ :signal_strength:
 - 26.02 - Text with backgroud image /text/
 - 27.02 - Text floating animation /text/
+- 27.02 - Text effect /text/
