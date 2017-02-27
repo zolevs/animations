@@ -1,0 +1,30 @@
+/* css for text effect */
+body {
+	background-color: #efefef;
+	margin: 0;
+	padding: 0;
+
+}
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+h1 {
+	font-size: 4em;
+	font-family: arial;
+	color: rgba(255,0,0,0.4);
+	text-shadow: 1px 2px 6px #efefef,
+				 1px 2px 6px rgba(136,136,136,0.7);
+	transform: rotate(-20deg) skew(20deg);
+}
+h1:before {
+	content:attr(data-title);
+	position: absolute;
+	left: 0;
+	color: #fff;
+	transform: translate(20px, 0) skew(-39deg);
+	text-shadow: none;
+
+}
