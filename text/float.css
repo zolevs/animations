@@ -1,0 +1,38 @@
+/* CSS for floating Text */
+body {
+	margin: 0;
+	padding: 0;
+	background-color: tomato;
+}
+h1 {
+	text-align: center;
+	margin-top: 150px;
+	font-family: arial;
+	font-size: 8em;
+	/*line-height: 1em;*/
+	color: #fff;
+	text-shadow: 0 1px 0 #efefef,
+				 0 2px 0 #efefef,
+				 0 3px 0 #efefef,
+				 0 4px 0 #efefef,
+				 0 20px 0 rgba(0,0,0,0.2);
+	animation: anim 4s linear infinite;
+}
+
+@keyframes anim {
+	0% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(5deg);
+	}
+	50% {
+		transform: rotate(-5deg);
+	}
+	75% {
+		transform: rotate(5deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
