@@ -75,3 +75,4 @@
 - 03.03 - Button effect /button - creative/
 - 04.03 - Line scale for preloading effect /preloader - line/
 - 04.03 - Color of Text selection /text - text_selection/
+- 04.03 - Word and letter spacing /text - spacing/
