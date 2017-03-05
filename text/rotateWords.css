@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: beige;
+	font-family: Roboto;
+}
+h1 {
+	margin: 250px 0 0 400px;
+	padding: 0;
+	font-weight: 900;
+	font-size: 5em;
+	color: #60A0A0;
+	text-shadow: 0 2px 0 rgba(0,0,0,.5);
+}
+span:before {
+	content: "HTML";
+	animation: anim infinite 6s;
+}
+@keyframes anim{
+	0% {
+		content: "HTML";
+	}
+	20% {
+		content: "CSS";
+	}
+	40% {
+		content: "PHP";
+	}
+	60% {
+		content: "JS";
+	}
+	80% {
+		content: "WordPress";
+
+	}
+	100% {
+		content: "GIT";
+	}
+}
