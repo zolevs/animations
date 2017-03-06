@@ -77,3 +77,4 @@
 - 04.03 - Color of Text selection /text - text_selection/
 - 04.03 - Word and letter spacing /text - spacing/
 - 05.03 - Word rotation /text - rotation/
+- 06.03 - Border animation for button /button - button_border/
