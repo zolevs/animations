@@ -78,3 +78,5 @@
 - 04.03 - Word and letter spacing /text - spacing/
 - 05.03 - Word rotation /text - rotation/
 - 06.03 - Border animation for button /button - button_border/
+- 07.03 - Gradient /gradient/
+
