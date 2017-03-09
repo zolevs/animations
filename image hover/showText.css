@@ -1,0 +1,44 @@
+.textOverImage {
+	background-image: url(cat-300572_960_720.jpg);
+	position: relative;
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin: 4px;
+	background-size: 100%;
+	background-position: center;
+	transition: .5s;
+}
+.textOverImage:hover {
+	background-size: 110%;
+}
+.textOverImage:after{
+	font-size: 18px;
+	content: attr(data-text);
+	position: absolute;
+	top: 90%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	word-wrap: break-word;
+	/*text-align: justify;*/
+	overflow:hidden;
+	background-color: rgba(0,0,0,0.3);
+	color: #fff;
+	padding: 0 15px;
+	/*opacity: 0;*/
+	transition: .5s;
+}
+.textOverImage:hover:after {
+	/*opacity: 1;*/
+	top:0%;
+	padding: 15px;
+
+	background-color: rgba(50,0,0,0.6)
+}
+.textOverImage:first-line{
+	color: #7FFFFF;
+	font-weight: 900;
+	font-size: 24px;
+
+}
