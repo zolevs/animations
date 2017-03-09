@@ -81,3 +81,4 @@
 - 07.03 - Gradient /gradient/
 - 07.03 - Gradient animation /gradient - animationGradient/
 - 07.03 - Underline Animation hover effect /underline menu - underline_2/
+- 09.03 - Split hover over image /image hover - splitHover/
