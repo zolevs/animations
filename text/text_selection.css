@@ -7,13 +7,30 @@ p{
 	padding: 0 20px;
 	text-align: justify;
 }
+.sectionOne::-moz-selection {
+	background-color: tomato;
+}
 .sectionOne::selection {
 	background-color: tomato;
 }
+
+
+
 .sectionTwo::selection{
 	background-color: #7FC9Ff;
 	color: blue;
 }
+.sectionTwo::-moz-selection{
+	background-color: #7FC9Ff;
+	color: blue;
+}
+
+
+
 .sectionThree::selection {
 	color: red;
 }
+.sectionThree::-moz-selection {
+	color: red;
+}
+
