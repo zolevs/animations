@@ -84,3 +84,4 @@
 - 09.03 - Split hover over image /image hover - splitHover/
 - 09.03 - Slide text on hover /image hover - showText/
 - 10.03 - Playing card 3d flip animation /3d flip/
+- 11.03 - Reveal text animation effect /text - reveal/
