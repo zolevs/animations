@@ -19,12 +19,14 @@ h1:before {
 	content:'';
 	/*width: 100%;*/
 	width: 0%;
-	height: 60px;
+	height: 55px;
 	background: #fbff65;
 	position: absolute;
 	top: 0;
 	left: 0;
-	animation: anim 5s;
+	animation: anim 5s infinite alternate;
+	/*animation: anim 5s forwards;*/
+	border-right: 4px solid #262626;
 }
 
 @keyframes anim {
