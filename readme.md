@@ -86,3 +86,4 @@
 - 10.03 - Playing card 3d flip animation /3d flip/
 - 11.03 - Reveal text animation effect /text - reveal/
 - 12.03 - Button with hover animation /button - newButton/
+- 13.03 - Dropdown menu /material menu - dropdown/

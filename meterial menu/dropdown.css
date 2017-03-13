@@ -11,6 +11,7 @@
 	background-color: deeppink;
 	color: #fff;
 	transition: .4s;
+	cursor: pointer;
 }
 .dropdown button:hover {
 	background-color: hotPink;
