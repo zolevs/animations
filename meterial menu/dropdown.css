@@ -33,6 +33,8 @@
 	min-width: 100%;
 	opacity: 0;
 	transition: .3s;
+
+	white-space: nowrap; /* ovo je resenje za prelamanje reda kod dugih reci u meniju */
 }
 
 .dropdown:hover div {
