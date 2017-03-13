@@ -87,3 +87,4 @@
 - 11.03 - Reveal text animation effect /text - reveal/
 - 12.03 - Button with hover animation /button - newButton/
 - 13.03 - Dropdown menu /material menu - dropdown/
+- 13.03 - Hover menu effect /material menu - menuEffect /
