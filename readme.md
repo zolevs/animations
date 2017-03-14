@@ -88,3 +88,4 @@
 - 12.03 - Button with hover animation /button - newButton/
 - 13.03 - Dropdown menu /material menu - dropdown/
 - 13.03 - Hover menu effect /material menu - menuEffect /
+- 14.03 - 3D page flip /3d flip - 3dbook/ :book:
