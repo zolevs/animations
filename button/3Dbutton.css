@@ -1,0 +1,38 @@
+/* CSS for 3D Button effect */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #f0f0f0;
+	font-family: Calibri, sans-serif;
+}
+.button {
+	display: block;
+	width: 180px;
+	height: 60px;
+	position: relative;
+	border: 2px solid #04a;
+	margin: 250px auto;
+	border-radius: 5px;
+	background-color: #06c; /*da bi se sklonila ona mala bela tackica u uglovima stavljamo i background color */
+}
+.button .content {
+	display: block;
+	position: absolute;
+	bottom: 6px; /*pomeramo na gore da bi smo usli u button i dobili donji border dole */
+	width: 100%;
+	height: 100%;
+	background-color: #09f;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 60px;
+	box-shadow: 0px 6px 0px #06c;
+	border-radius: 5px;
+}
+.button:active .content {
+	bottom: 0px;
+	box-shadow: 0px 0px 0px #06c;
+}
