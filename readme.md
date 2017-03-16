@@ -91,3 +91,4 @@
 - 14.03 - 3D page flip /3d flip - 3dbook/ :book:
 - 15.03 - Transparent menu /material menu - transparentMenu/
 - 15.03 - 3D Button effect /button - 3Dbutton/
+- 16.03 - Scroll text with change of color /text - scrollChangeColor/
