@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ddd;
+	font-family: arial;
+}
+.center {
+	position:absolute;
+	top: 50%;
+	left: 50%;
+
+}
+a {
+	color: #333;
+	background-color: #557788;
+	padding: 10px 15px 10px 25px;
+	font-weight: 700;
+	text-decoration: none;
+	border: 1px solid rgba(0,0,0,.2);
+	border-radius: 4px;
+	transition: .4s;
+}
+a:after {
+	content: '\f061';
+	font-family: fontAwesome;
+	position: relative;
+	left: -10px;
+	opacity: 0;
+	transition: .3s;
+}
+a:hover:after {
+	left: 13px;
+	opacity: 1;
+}
+a:hover {
+	padding-right: 25px;
+}
