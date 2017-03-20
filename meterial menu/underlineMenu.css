@@ -41,8 +41,12 @@ ul li a:after {
 	mix-blend-mode: multiply;
 }
 ul li a:hover:after {
-	width: 100%;
+	/*width: 100%;*/
+	width: 50%;
+	transform: translateX(-100%);
 }
 ul li a:hover:before {
-	width: 100%;
+	/*width: 100%;*/
+	width: 50%;
+	transform: translateX(100%);
 }
