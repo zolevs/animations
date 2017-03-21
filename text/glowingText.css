@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+}
+
+ul {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% -50%);
+	margin: 0;
+	padding:0;
+	display: flex;
+}
+ul li {
+	list-style: none;
+	color: #484848;
+	font-family: sans-serif;
+	font-size: 4em;
+	letter-spacing: 0.3em;
+	animation: anim 1.5s linear infinite;
+}
+@keyframes anim {
+	0%{
+		color: #484848;
+		text-shadow: none;
+	}
+	90%{
+		color: #484848;
+		text-shadow: none;
+		/*text-shadow: 0 0 7px #fd80f0, 0 0 50px #fd80f0;*/
+	}
+	100%{
+		color: #FD80F0;
+		text-shadow: 0 0 7px #fd80f0, 0 0 50px #fd80f0;
+	}
+}
+
