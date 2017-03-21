@@ -19,7 +19,7 @@ ul li {
 	font-family: sans-serif;
 	font-size: 4em;
 	letter-spacing: 0.3em;
-	animation: anim 1.5s linear infinite;
+	animation: anim 1.5s linear alternate infinite;
 }
 
 ul li:nth-child(1){
