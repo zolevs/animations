@@ -96,3 +96,4 @@
 - 18.03 - Elements menu animation /material menu - elementsMenu/ :sunrise:
 - 19.03 - Strech Button animation for readmore button /button - moreArrow/
 - 20.03 - Underline menu /material menu - underlineMenu/
+- 21.03 - Glowing text animation /text - glowingText/
