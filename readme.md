@@ -97,3 +97,4 @@
 - 19.03 - Strech Button animation for readmore button /button - moreArrow/
 - 20.03 - Underline menu /material menu - underlineMenu/
 - 21.03 - Glowing text animation /text - glowingText/
+- 22.03 - Neonlight text effect /text - neonText/
