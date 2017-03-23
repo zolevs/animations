@@ -29,6 +29,19 @@ body {
 	transform: skewX(-30deg);
 	animation: light linear 5s infinite;
 }
+.shadow {
+	position: absolute;
+	top: calc(50% + 170px);
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 5px;
+	width: 300px;
+	background-color: #000;
+	border-radius: 50%;
+	animation: anim linear 5s infinite;
+	filter: blur(5px);
+
+}
 @keyframes anim {
 	0% {
 		transform: translate(-50%, -50%) skewY(5deg);
