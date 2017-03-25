@@ -99,3 +99,4 @@
 - 21.03 - Glowing text animation /text - glowingText/
 - 22.03 - Neonlight text effect /text - neonText/
 - 23.03 - Tilt Image animation /image - tiltImage/
+- 24.03 - Icon hover animation /icon animation - circle/
