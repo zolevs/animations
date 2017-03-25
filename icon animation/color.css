@@ -42,7 +42,42 @@ ul li:before {
 	transform: scale(0);
 	transition: .3s ease-in-out;
 }
+ul li:after{
+	content: "";
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	right: -100%;
+	top: 0;
+	background-color: rgba(255,255,255,.3);
+	transition: .5s ease-in-out;
+	transition-delay: .2s;
+}
+
 ul li:hover:before {
 	left: 0;
-	transform: scale(1);
+	transform: scale(0.9);
+}
+ul li:hover:after{
+	right: 0%;
+}
+
+ul li:nth-child(1):before{
+	background-color: #3b5999;
+}
+ul li:nth-child(2):before {
+	background-color: #55acee ;
+}
+ul li:nth-child(3):before {
+	background-color: #0077B5;
+}
+ul li:nth-child(4):before {
+	background-color: #bd081c;
+}
+ul li .fa {
+	transition: .4s ease-in-out;
+	color: #333;
+}
+ul li .fa:hover {
+	color: #fff;
 }
