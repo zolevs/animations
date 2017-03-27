@@ -102,3 +102,4 @@
 - 25.03 - Icon hover animation /icon animation - circle/
 - 25.03 - Icon hover animation /icon animation - color/ :rainbow:
 - 26.03 - Box rotation /effects - boxes/
+- 27.03 - Half circle icon /icon animation - half_circle/
