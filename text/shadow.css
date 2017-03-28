@@ -1,0 +1,26 @@
+body {
+	background-color: #ddd;
+	font-family: "Righteous", sans-serif;
+	margin: 0;
+	padding: 0;
+	/*overflow: hidden;*/
+}
+.center {
+	margin: 200px 0 0 250px;
+}
+h1 {
+	font-size: 7em;
+	color: rgba(0,0,0,.2);
+	position: relative;
+	padding: 0;
+	margin: 0;
+	transform-origin: bottom;
+	transform: skewX(50deg);
+}
+h1:before {
+	content: attr(data-title);
+	position: absolute;
+	color: #fff;
+	transform-origin: bottom;
+	transform: skewX(-50deg) translate(-20px, 15px) scaleY(1.5);
+}
