@@ -104,5 +104,4 @@
 - 26.03 - Box rotation /effects - boxes/
 - 27.03 - Half circle icon /icon animation - half_circle/
 - 28.03 - Long text shadow /text - shadow/
-- 29.03 - Recreate blink tag /animation - blink/ :cyclone:
-- 29.03 - Testing animation behaviour /animation - box /
+- 29.03 - Text align with image /text - imgAlign/
