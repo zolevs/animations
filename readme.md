@@ -105,3 +105,4 @@
 - 27.03 - Half circle icon /icon animation - half_circle/
 - 28.03 - Long text shadow /text - shadow/
 - 29.03 - Text align with image /text - imgAlign/
+- 30.03 - Circle color wheel /circle_hover - rotatingCircle/
