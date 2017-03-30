@@ -106,3 +106,4 @@
 - 28.03 - Long text shadow /text - shadow/
 - 29.03 - Text align with image /text - imgAlign/
 - 30.03 - Circle color wheel /circle_hover - rotatingCircle/
+- 30.03 - Image scroll /text - fill/
