@@ -107,3 +107,8 @@
 - 29.03 - Text align with image /text - imgAlign/
 - 30.03 - Circle color wheel /circle_hover - rotatingCircle/
 - 30.03 - Image scroll /text - fill/ :trollface:
+
+ :alien:
+---
+
+- 01.03 - Split word with polygon /text - splitword/
