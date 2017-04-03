@@ -111,4 +111,4 @@
  :alien:
 ---
 
-- 01.03 - Split word with polygon /text - splitword/
+- 01.04 - Split word with polygon /text - splitword/
