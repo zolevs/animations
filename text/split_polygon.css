@@ -63,3 +63,43 @@ ul li:nth-child(even):after{
 	top: 2px;
 	left: 2px;
 }
+ul li:nth-child(even){
+	animation: animEven 3s linear infinite;
+}
+ul li:nth-child(odd){
+	animation: animOdd 3s linear infinite;
+}
+@keyframes animEven {
+	0% {
+		transform: rotate(15deg);
+	}
+	25% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(-15deg);
+	}
+	75% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(15deg);
+	}
+}
+@keyframes animOdd {
+	0% {
+		transform: rotate(-15deg);
+	}
+	25% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(15deg);
+	}
+	75% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(-15deg);
+	}
+}
