@@ -113,3 +113,4 @@
 
 - 01.04 - Split word with polygon /text - splitword/
 - 03.04 - Jump block of text /text - jump/
+- 05.04 - Split text with polygon /text - split_polygon/
