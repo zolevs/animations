@@ -115,3 +115,4 @@
 - 03.04 - Jump block of text /text - jump/
 - 05.04 - Split text with polygon /text - split_polygon/
 - 07.04 - Three bar preloader /preloader - threeBar/
+- 09.04 - Jittery icon /jittery - icon/ :pill:
