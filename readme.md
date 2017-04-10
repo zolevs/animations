@@ -117,3 +117,4 @@
 - 07.04 - Three bar preloader /preloader - threeBar/
 - 09.04 - Jittery icon /jittery - icon/ :pill:
 - 10.04 - Split button /button - split/
+- 10.04 - Floating text /text - floating_text/
