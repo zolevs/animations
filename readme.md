@@ -118,3 +118,4 @@
 - 09.04 - Jittery icon /jittery - icon/ :pill:
 - 10.04 - Split button /button - split/
 - 10.04 - Floating text /text - floating_text/
+- 11.04 - Partial underline text /text - underline/
