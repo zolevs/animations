@@ -42,3 +42,18 @@ a span:nth-child(1):before{
 a:hover span:nth-child(1):before{
 	transform: rotateX(0deg) translateY(0%)
 }
+/* second button */
+a span:nth-child(2):before {
+	content: attr(data-attr);
+	padding: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #333;
+	transform-origin:  bottom;
+	transform: rotateX(-90deg) translateY(50%);
+	transition: .5s;
+}
+a:hover span:nth-child(2):before{
+	transform: rotateX(0deg) translate(0%);
+}
