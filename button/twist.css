@@ -57,3 +57,36 @@ a span:nth-child(2):before {
 a:hover span:nth-child(2):before{
 	transform: rotateX(0deg) translate(0%);
 }
+
+/* *** real rotate */
+
+a span:nth-child(1):after {
+	content: attr(data-attr);
+	padding: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #333;
+	transform-origin: bottom;
+	transform: rotateX(0deg) translateY(0%);
+	transition: .5s;
+}
+a:hover span:nth-child(1):after {
+	transform: rotateX(90deg) translateY(50%);
+}
+
+
+a span:nth-child(2):after {
+	content: attr(data-attr);
+	padding: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: tomato;
+	transform-origin: top;
+	transform: rotateX(0deg) translateY(0%);
+	transition: .5s;
+}
+a:hover span:nth-child(2):after {
+	transform: rotateX(90deg) translateY(50%);
+}
