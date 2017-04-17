@@ -121,4 +121,5 @@
 - 12.04 - Partial underline text /text - underline/
 - 12.04 - Hamburger menu /icon animation - hamburger/
 - 14.04 - Twisted button /button - twist/ for :birthday:
-- 16.06 - Neon light bar /effect - neonLight/
+- 16.04 - Neon light bar /effect - neonLight/
+- 17.04 - Image hover effect /image hover - effect/
