@@ -16,7 +16,7 @@ ul li {
 	position: relative;
 	list-style: none;
 	text-align: center;
-	width: 80px;
+	width: 120px;
 	cursor: pointer;
 }
 ul li .text {
@@ -32,7 +32,7 @@ ul li .text {
 	color: #bbb;
 }
 ul li .fa {
-	font-size: 2em;
+	font-size: 4em;
 	color: #fff;
 }
 ul li:hover .text{
