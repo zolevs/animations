@@ -124,3 +124,4 @@
 - 16.04 - Neon light bar /effect - neonLight/
 - 17.04 - Image hover effect /image hover - effect/
 - 18.04 - Icon reveal text /icon animation - slideIn/
+- 21.04 - Spin preloader animation /preloader - spinPreloader/
