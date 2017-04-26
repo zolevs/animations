@@ -36,43 +36,43 @@ ul li:nth-child(1){
 	width: 60px;
 	height: 60px;
 	border-color: #f00;
-	animation-delay: ;
+	animation-delay: .2s;
 }
 ul li:nth-child(2){
 	width: 90px;
 	height: 90px;
 	border-color: #E2571E;
-	animation-delay: ;
+	animation-delay: .4s;
 }
 ul li:nth-child(3){
 	width: 120px;
 	height: 120px;
 	border-color: #FF7F00;
-	animation-delay: ;
+	animation-delay: .6;
 }
 ul li:nth-child(4){
 	width: 150px;
 	height: 150px;
 	border-color: #FFFF00;
-	animation-delay: ;
+	animation-delay: .8;
 }
 ul li:nth-child(5){
 	width: 180px;
 	height: 180px;
 	border-color: #00FF00;
-	animation-delay: ;
+	animation-delay: 1s;
 }
 ul li:nth-child(6){
 	width: 210px;
 	height: 210px;
 	border-color: #96bf33;
-	animation-delay: ;
+	animation-delay: 1.2s;
 }
 ul li:nth-child(7){
 	width: 240px;
 	height: 240px;
 	border-color: #0000FF;
-	animation-delay: ;
+	animation-delay: 1.4s;
 }
 @keyframes anim {
 	0% {
