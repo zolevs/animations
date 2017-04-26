@@ -6,7 +6,7 @@ body {
 
 }
 .stripesLoader {
-	height: 20px; /* don't */
+	height: 20px; /* watch on this heght can't be larger than 20 */
 	background: linear-gradient(
 		90deg,
 		#eee 50%,
