@@ -126,3 +126,4 @@
 - 18.04 - Icon reveal text /icon animation - slideIn/
 - 21.04 - Spin preloader animation /preloader - spinPreloader/
 - 26.04 - Rainbow animation /effect - rainbow/
+- 27.04 - Smoke effect /animations - smoke/
