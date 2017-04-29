@@ -20,12 +20,14 @@ body {
 	border: 1px solid rgba(0,0,0,.2);
 	border-radius: 5px;
 	transition: .5s;
+	text-align: justify;
 }
 .box h1 {
 	margin: 0;
 	padding: 0;
 	font-size: 24px;
 	transition: .5s;
+	text-align: center;
 }
 .box p {
 	transition: .5s;
