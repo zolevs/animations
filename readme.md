@@ -130,3 +130,5 @@
 - 27.04 - Smoke effect /effect - smoke/
 - 28.04 - 3D button /effect - button/
 - 29.04 - Info panel /panel - info/
+
+- 01.05 - Icon box with social icon /icon animation - socialbox/
