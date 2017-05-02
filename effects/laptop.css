@@ -1,0 +1,49 @@
+body {
+	background-color: #262626;
+	margin: 0;
+	padding: 0;
+}
+img {
+	width: 100%;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.laptop {
+	width: 340px;
+	height: 200px;
+	background: #000;
+	border: 16px solid #262626;
+	box-shadow: 1px 0px 0px #fff, -1px 0px 0px #fff, 0px -1px 0 #fff;
+	overflow: hidden;
+}
+.laptop:before {
+	content: '';
+	position: absolute;
+	bottom: -10px;
+	left: -15%;
+	width: 130%;
+	height: 10px;
+	background: #fff;
+	border-top: 2px solid #ccc;
+	border-bottom: 4px solid #ccc;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}
+.laptop:after {
+	content: ""; /* tacka za kameru */
+	position: absolute;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background: #000;
+	left: 50%;
+	top: 2%;
+}
