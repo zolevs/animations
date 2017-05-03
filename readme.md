@@ -136,3 +136,4 @@
 
 - 01.05 - Icon box with social icon /icon animation - socialbox/
 - 02.05 - Laptop with css /effect - laptop/
+- 03.05 - Pulse effect /effect - pulse/
