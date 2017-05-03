@@ -61,7 +61,7 @@
 - 24.02 - Bouncing ball animation /ball/
 - 25.02 - Ball inside box /ball - rotate ball/
 - 25.02 - Text fill animation /text/ :signal_strength:
-- 26.02 - Text with backgroud image /text/
+- 26.02 - Text with background image /text/
 - 27.02 - Text floating animation /text/
 - 27.02 - Text effect /text/
 
