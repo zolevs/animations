@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: tahoma;
+	background: #333;
+}
+.center {
+	width: 100%;
+	height: 200px;
+	display: flex;
+	box-sizing: border-box;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.box {
+	width: auto;
+	text-align: center;
+	line-height: 200px;
+	flex-grow: 1;
+	transition: .5s;
+	font-size: 1.2em;
+	color: #fff;
+	background: tomato;
+}
+.box:hover {
+	flex-grow: 4;
+	max-width: 100%;
+	background: #f00;
+	font-size: 2em;
+}
