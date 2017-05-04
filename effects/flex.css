@@ -29,3 +29,27 @@ body {
 	background: #f00;
 	font-size: 2em;
 }
+.center .box:nth-child(1){
+	background: #f1c40f;
+}
+.center .box:nth-child(2){
+	background: #9b59b6;
+}
+.center .box:nth-child(3){
+	background: #95a5a6;
+}
+.center .box:nth-child(4){
+	background: #16a085;
+}
+.center .box:nth-child(5){
+	background: #3498db;
+}
+.center .box:nth-child(6){
+	background: #e74c3c;
+}
+.center .box:nth-child(7){
+	background: #2980b9;
+}
+.center .box:nth-child(8){
+	background: #1abc9c;
+}
