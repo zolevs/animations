@@ -43,6 +43,18 @@ body {
 	left: -65%;
 	filter: blur(1px);
 }
+.shadow {
+	position: absolute;
+	width: 150px;
+	height: 50px;
+	transform: translate(-50%, 100%);
+	background: rgba(0,0,0,.2);
+	border-radius: 50%;
+	z-index: -1;
+	filter: blur(3px);
+	animation: shadow_anim 1.5s linear infinite;
+}
+
 @keyframes anim {
 	0% {
 		transform: translate(-50%, -50%) translateY(-200px) rotate(0deg);
@@ -52,5 +64,16 @@ body {
 	}
 	100% {
 		transform: translate(-50%, -50%) translateY(-200px) rotate(360deg);
+	}
+}
+@keyframes shadow_anim {
+	0% {
+		transform: translate(-50%, 100%) scale(1);
+	}
+	50% {
+		transform: translate(-50%, 100%) scale(.5);
+	}
+	100% {
+		transform: translate(-50%, 100%) scale(1);
 	}
 }
