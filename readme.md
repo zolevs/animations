@@ -138,3 +138,4 @@
 - 02.05 - Laptop with css /effect - laptop/
 - 03.05 - Pulse effect /effect - pulse/
 - 06.05 - Tennis ball shape /collection shapes - tennisball/
+- 07.05 - Hover effect for navigation (button) /button - navigation/
