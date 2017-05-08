@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+a {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 180px;
+	height: 60px;
+	/*background: red;*/
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: tahoma;
+	font-size: 20px;
+	letter-spacing: 3px;
+	line-height: 60px;
+	color: #fff;
+	background: #333;
+	overflow: hidden;
+	box-sizing: border-box;
+	transition: .5s;
+
+}
+a:before {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 0;
+	bottom: 0;
+	border-style: solid;
+	border-color: #f00;
+	border-width: 80px 100px;
+	z-index: -1;
+	transform: rotate(360deg);
+	transition: 1s;
+	transform-origin: left;
+}
+a:hover:before {
+	border-color: #00f;
+	transform: rotate(60deg);
+}
