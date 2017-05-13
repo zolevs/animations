@@ -1,0 +1,38 @@
+body {
+	background-color: #eee;
+	margin: 0;
+	padding: 0;
+}
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+span {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #333;
+	animation: anim 4s infinite ease-in-out;
+}
+span:nth-child(1){
+	background-color: #00485f;
+	left: -24px;
+	top: -24px;
+}
+span:nth-child(2){
+	background-color: #00deea;
+	left: 0px;
+	top: -24px;
+}
+span:nth-child(3){
+	background-color: #00deea;
+	left: -24px;
+	top: 0px;
+}
+span:nth-child(4){
+	background-color: #00485f;
+	left: 0px;
+	top: 0px;
+}
