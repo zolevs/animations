@@ -141,4 +141,5 @@
 - 07.05 - Hover effect for navigation (button) /button - navigation/
 - 08.05 - Background rotation for button /button - background/ 👣
 - 09.05 - Preloader bar animation /preloader - bar_preloader/
+- 12.05 - :balloon: :balloon: :balloon: :balloon: :hammer:
 - 13.05 - Preloader little box animation /preloader - littlBox/ :lipstick:
