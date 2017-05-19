@@ -144,3 +144,4 @@
 - 12.05 - :balloon: :balloon: :balloon: :balloon: :hammer:
 - 13.05 - Preloader little box animation /preloader - littlBox/ :lipstick:
 - 17.05 - Rainbow text color /text - colortext/
+- 18.05 - Sliding button /button - slide/
