@@ -145,3 +145,4 @@
 - 13.05 - Preloader little box animation /preloader - littlBox/ :lipstick:
 - 17.05 - Rainbow text color /text - colortext/  :hammer: :hammer: :hammer:
 - 18.05 - Sliding button /button - slide/
+- 20.05 - Scroll down button /arrow navigation - scrollDown/
