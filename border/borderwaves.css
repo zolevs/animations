@@ -1,0 +1,51 @@
+body {
+	background-color: #aaa;
+}
+.borderwaves {
+	width: 200px;
+	height: 200px;
+	/*background-image: url(https://web.opendrive.com/api/v1/download/file.json/NTlfNjY0NDg1NF8?inline=1);*/
+	/* background-image: url(https://web.opendrive.com/api/v1/download/file.json/NTlfNjY0NDg1NF8?inline=1); */
+	display: inline-block;
+	margin: 20px;
+	background-size: cover;
+	border-radius: 4px;
+	box-shadow: 2px 4px 8px rgba(0,0,0,.5);
+	cursor: pointer;
+	position: relative;
+}
+.borderwaves:before, .borderwaves:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border: 2px solid transparent; /* #fff */
+	border-radius: 4px;
+	animation: anim 1s linear infinite;
+
+	opacity: 0;
+	visibility: hidden;
+	transition: .5s;
+}
+.borderwaves:after {
+	animation-delay: .5s;
+}
+
+.borderwaves:hover:before, .borderwaves:hover:after {
+	opacity: .8;
+	visibility: visible;
+}
+@keyframes anim {
+	50% {
+		border-color: #fff;
+	}
+	100%{
+		top: -20px;
+		bottom: -20px;
+		right: -20px;
+		left: -20px;
+		border-radius: 20px;
+	}
+}
