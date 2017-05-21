@@ -146,3 +146,4 @@
 - 17.05 - Rainbow text color /text - colortext/  :hammer: :hammer: :hammer:
 - 18.05 - Sliding button /button - slide/
 - 20.05 - Scroll down button /arrow navigation - scrollDown/
+- 21.05 - Border waves effect around picture /border - borderwaves/
