@@ -1,5 +1,5 @@
 body {
-	background-color: #eee;
+	background-color: #333;
 }
 .textOverImage {
 	display: inline-block;
@@ -11,6 +11,10 @@ body {
 	margin: 4px;
 	position: relative;
 	cursor: pointer;
+	overflow: hidden;
+}
+.textOverImage > input {
+	display: none;
 }
 .textOverImage > h2{
 	margin: 0;
@@ -27,7 +31,11 @@ body {
 	opacity: 0;
 	transition: .4s;
 }
-.textOverImage:hover > h2 {
+.textOverImage:hover > h2, .textOverImage > input:checked + h2 + div{
 	opacity: 1;
 	bottom: 4px;
+}
+.textOverImage > input:checked + h2 {
+	bottom: -20px;
+	opacity: 0;
 }
