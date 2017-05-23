@@ -147,4 +147,5 @@
 - 18.05 - Sliding button /button - slide/
 - 20.05 - Scroll down button /arrow navigation - scrollDown/
 - 21.05 - Border waves effect around picture /border - borderwaves/
+- 23.05 -  :four_leaf_clover:  :hammer: :four_leaf_clover:  :hammer:  :four_leaf_clover:  :hammer:
 - 23.05 - Panel text info / panel - textInfo /
