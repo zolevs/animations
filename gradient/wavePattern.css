@@ -1,0 +1,12 @@
+body{
+    background:radial-gradient(circle at 0 0,transparent 30%,rgba(255,255,255,0.3) 30%,rgba(255,255,255,0.3) 45%,transparent 45%),
+    radial-gradient(circle at 100% 100%,transparent 25%,rgba(255,255,255,0.3) 25%,rgba(255,255,255,0.3) 41%,transparent 41%),
+    url(https://unsplash.it/200/300/?random);
+    background-size:300px 300px,300px 300px,cover;
+
+    animation:anim 1s linear infinite;
+ }
+
+ @keyframes anim{
+  to{background-position:300px -300px,300px -300px,0 0}
+ }
