@@ -150,3 +150,4 @@
 - 23.05 -  level 1 :four_leaf_clover:  :hammer: :four_leaf_clover:  :hammer:  :four_leaf_clover:  :hammer:
 - 23.05 - Panel text info / panel - textInfo /
 - 24.05 - Gradient waves / gradient - wavePattern  /
+- 25.05 - Hover image effect /image hover - flipImage/
