@@ -151,3 +151,4 @@
 - 23.05 - Panel text info / panel - textInfo /
 - 24.05 - Gradient waves / gradient - wavePattern  /
 - 25.05 - Hover image effect /image hover - flipImage/
+- 26.05 - New look button /button - newLook/
