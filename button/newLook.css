@@ -20,12 +20,17 @@ button:after {
 	right: 0;
 	background: linear-gradient(45deg, orangeRed 50%, transparent 50% );
 	z-index: -1;
+
+	color: #fff; /* for IE */
 }
 button, button:after{
 	background-size: 300%;
 	background-position: 100%;
-	transition: 1s;
+	transition: 1s, font-size .2s;
 }
 button:hover, button:hover:after {
 	background-position: 0;
+	font-size: 1.1em;
+
+	color: orangeRed; /* for IE */
 }
