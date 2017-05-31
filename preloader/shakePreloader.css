@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.loader {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 200px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	line-height: 200px;
+	/*overflow: hidden;*/
+}
+.loader h1 {
+	color: #fff;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
