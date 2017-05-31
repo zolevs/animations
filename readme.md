@@ -152,3 +152,4 @@
 - 24.05 - Gradient waves / gradient - wavePattern  /
 - 25.05 - Hover image effect /image hover - flipImage/
 - 26.05 - New look button /button - newLook/
+- 31.05 - Shake bar preloader /preloder - shakePreloader/
