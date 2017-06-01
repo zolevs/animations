@@ -153,3 +153,4 @@
 - 25.05 - Hover image effect /image hover - flipImage/
 - 26.05 - New look button /button - newLook/
 - 31.05 - Shake bar preloader /preloder - shakePreloader/
+- 01.06 - Move box for button animation /button - boxes/
