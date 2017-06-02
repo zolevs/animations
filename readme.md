@@ -158,3 +158,4 @@
 ---
 
 - 01.06 - Move box for button animation /button - boxes/
+- 02.06 - Circle preloade /circle preloader - double/
