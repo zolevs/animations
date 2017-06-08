@@ -71,12 +71,40 @@ ul li a:hover {
 	transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px,-20px);
 	box-shadow: -50px 50px 50px rgba(0,0,0,.5);
 }
+ul li:hover .fa {
+	color: #fff;
+}
 ul li:nth-child(1) a{
 	background-color: #3b5999;
+
 }
 ul li:nth-child(2) a{
 	background-color: #55acee;
 }
 ul li:nth-child(3) a{
 	background-color: #0077B5;
+}
+
+/* box side */
+ul li:hover:nth-child(1) a:before {
+	background-color: #2e4a86;
+}
+ul li:hover:nth-child(1) a:after {
+	background-color: #50638a;
+}
+
+/* box 2 side */
+ul li:hover:nth-child(2) a:before {
+	background-color: #559bee;
+}
+ul li:hover:nth-child(2) a:after {
+	background-color: #4184b7;
+}
+
+/* box 3 side */
+ul li:hover:nth-child(3) a:before {
+	background-color: #016fa9;
+}
+ul li:hover:nth-child(3) a:after {
+	background-color: #0d82bf;
 }
