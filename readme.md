@@ -160,3 +160,5 @@
 - 01.06 - Move box for button animation /button - boxes/
 - 02.06 - Circle preloade /circle preloader - double/
 - 07.06 - Isometric icon /3d_button - isometricIcon/
+- 08.06 - Isometric icon color adjusment /3d_button - isometricIcon/
+
