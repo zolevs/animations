@@ -161,4 +161,4 @@
 - 02.06 - Circle preloade /circle preloader - double/
 - 07.06 - Isometric icon /3d_button - isometricIcon/
 - 08.06 - Isometric icon color adjusment /3d_button - isometricIcon/
-
+- 15.06 - Lines for button animation /animations - button - lines/
