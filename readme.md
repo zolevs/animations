@@ -164,3 +164,4 @@
 - 15.06 - Lines for button animation /animations - button - lines/
 - 16.06 - Double direction button /button - directionButton/
 - 16.06 - Zoom In - Out button /button - zoomInOut/
+- 18.06 - Move text layer /text - layers/
