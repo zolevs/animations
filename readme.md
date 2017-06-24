@@ -167,7 +167,7 @@
 - 18.06 - Move text layer /text - layers/
 - 19.06 - Text horizontal split /text - splitHorizontal/
 - 23.06 - 3d info box /3d_button - infoBox/
-
+- 24.06 - Accordion text /panel - accordionPanel/
 
 
 
