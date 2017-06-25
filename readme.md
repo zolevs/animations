@@ -168,6 +168,6 @@
 - 19.06 - Text horizontal split /text - splitHorizontal/
 - 23.06 - 3d info box /3d_button - infoBox/
 - 24.06 - Accordion text /panel - accordionPanel/
-
+- 25.06 - Scroll down - call to action /arrow navigation - arrowDown/
 
 
