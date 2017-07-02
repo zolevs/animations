@@ -170,5 +170,9 @@
 - 24.06 - Accordion text /panel - accordionPanel/
 - 25.06 - Scroll down - call to action /arrow navigation - arrowDown/
 - 30.06 - Preloader pencil animation /preloader - pencil/	 :moneybag:	 :hammer:
+
+ :alien:
+---
+
 - 01.07 - Gradient border color /border - gradientBorder/
 - 02.07 - Text stroke effect /text - stroke/
