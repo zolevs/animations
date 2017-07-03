@@ -176,3 +176,4 @@
 
 - 01.07 - Gradient border color /border - gradientBorder/
 - 02.07 - Text stroke effect /text - stroke/
+- 03.07 - Hexagon icon set /icon animation - socialHexagon/
