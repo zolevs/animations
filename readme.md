@@ -178,3 +178,4 @@
 - 02.07 - Text stroke effect /text - stroke/
 - 03.07 - Hexagon icon set /icon animation - socialHexagon/
 - 06.07 - Fill text with color /text - backgroundFill/
+- 08.07 - Comparison image slider /image - comparison/
