@@ -32,6 +32,10 @@ body {
 	border-radius: 50%;
 	animation: anim 1.5s linear infinite;
 	opacity: 0;
+	backface-visibility: hidden;
+}
+.pulse:after {
+	animation-delay: .5s;
 }
 
 @keyframes anim {
