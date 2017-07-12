@@ -18,8 +18,9 @@ body {
 	color: #fff;
 	font-size: 48px;
 }
-.pulse:before,
-.pulse:after {
+
+.pulse:hover:before,
+.pulse:hover:after {
 	content: "";
 	display: block;
 	position: absolute;
@@ -34,7 +35,7 @@ body {
 	opacity: 0;
 	backface-visibility: hidden;
 }
-.pulse:after {
+.pulse:hover:after {
 	animation-delay: .5s;
 }
 
