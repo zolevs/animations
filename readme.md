@@ -181,3 +181,4 @@
 - 08.07 - Comparison image slider /image - comparison/
 - 11.07 - Gradient background /background_pulse - gradientBackground/
 - 12.07 - Icon Pulse /background_pulse - iconPulse/
+
