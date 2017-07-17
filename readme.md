@@ -181,4 +181,4 @@
 - 08.07 - Comparison image slider /image - comparison/
 - 11.07 - Gradient background /background_pulse - gradientBackground/
 - 12.07 - Icon Pulse /background_pulse - iconPulse/
-
+- 17.07 - Rotating words on a box /3d_button - wordRotation/
