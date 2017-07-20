@@ -182,3 +182,4 @@
 - 11.07 - Gradient background /background_pulse - gradientBackground/
 - 12.07 - Icon Pulse /background_pulse - iconPulse/
 - 17.07 - Rotating words on a box /3d_button - wordRotation/
+- 20.07 - Little box v2 preloader /preloader - littleBox_v2/
