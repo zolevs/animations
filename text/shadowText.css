@@ -1,0 +1,33 @@
+body {
+	background-color: tomato;
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+}
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+	text-align: center;
+}
+.text {
+	position: relative;
+	display: block;
+	font-size: 9em;
+	line-height: .72em;
+	color: #fff;
+	text-shadow: 0 10px 5px rgba(0,0,0,.2);
+	letter-spacing: -10px;
+	/*text-transform: uppercase;*/
+}
+.textblock1 {
+	z-index: 3;
+}
+.textblock2 {
+	z-index: 2;
+}
+.textblock3 {
+	z-index: 1;
+}
