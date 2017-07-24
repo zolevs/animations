@@ -185,3 +185,8 @@
 - 20.07 - Little box v2 preloader /preloader - littleBox_v2/
 - 21.07 - Skew button /button - skewButton/
 - 22.07 - Overlaping text shadow /text - shadowText/
+- 24.07 - Background movement /background_pulse - backgroundMove/
+
+
+
+
