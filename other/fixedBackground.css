@@ -1,0 +1,31 @@
+body {
+	margin:0;
+	padding: 0;
+}
+section{
+	height: 100vh;
+}
+.sec_1 {
+	background: url(402_or.jpg) no-repeat;
+	background-attachment: fixed;
+}
+.sec_2 {
+	background: url(402_b.jpg) no-repeat;
+	background-attachment: fixed;
+	border-top: 2px solid #ddd;
+}
+.sec_3 {
+	background: url(402_c.jpg) no-repeat;
+	background-attachment: fixed;
+	border-top: 2px solid #ddd;
+}
+.sec_4 {
+	background: url(402_d.jpg) no-repeat;
+	background-attachment: fixed;
+	border-top: 2px solid #ddd;
+}
+.sec_5 {
+	background: url(402_e.jpg) no-repeat;
+	background-attachment: fixed;
+	border-top: 2px solid #ddd;
+}
