@@ -186,7 +186,7 @@
 - 21.07 - Skew button /button - skewButton/
 - 22.07 - Overlaping text shadow /text - shadowText/
 - 24.07 - Background movement /background_pulse - backgroundMove/
-
+- 25.07 - Particles JS library and animation / other - particle/
 
 
 
