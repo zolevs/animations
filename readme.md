@@ -188,5 +188,5 @@
 - 24.07 - Background movement /background_pulse - backgroundMove/
 - 25.07 - Particles JS library and animation / other - particle/
 - 25.07 - Fixed background (attachment) /other - fixedBackground/
-
+- 26.07 - Hexagonal icon animation /icon animation - hexagonal/
 
