@@ -38,15 +38,20 @@ a:after {
 	transform: rotate(-120deg);
 }
 a:hover {
-	border-left: 2px solid #fff;
-	border-right: 2px solid #fff;
+	border: 2px solid #fff;
+	border-top: 2px solid transparent;
+	border-bottom: 2px solid transparent;
 }
 a:hover:before {
-	border-left: 2px solid #fff;
-	border-right: 2px solid #fff;
+	transform: rotate(-120deg);
+	border: 2px solid #fff;
+	border-top: 2px solid transparent;
+	border-bottom: 2px solid transparent;
 
 }
 a:hover:after {
-	border-left: 2px solid #fff;
-	border-right: 2px solid #fff;
+	transform: rotate(120deg);
+	border: 2px solid #fff;
+	border-top: 2px solid transparent;
+	border-bottom: 2px solid transparent;
 }
