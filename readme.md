@@ -189,4 +189,7 @@
 - 25.07 - Particles JS library and animation / other - particle/
 - 25.07 - Fixed background (attachment) /other - fixedBackground/
 - 26.07 - Hexagonal icon animation /icon animation - hexagonal/
+- 27.07 - Search box animation /icon animation - searchBox/
+
+
 
