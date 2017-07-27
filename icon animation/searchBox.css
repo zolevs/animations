@@ -1,0 +1,21 @@
+body {
+	background-color: #ddd;
+}
+.main {
+	width: 600px;
+	height: 300px;
+	margin: 10px auto;
+	background: #666;
+}
+form input{
+	margin: 30px;
+	border: 0;
+	background: #fff;
+	height: 30px;
+	width: 150px;
+	padding: 10px;
+	transition: all .6s ease-in;
+}
+form input:focus {
+	width: 300px;
+}
