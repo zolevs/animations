@@ -12,6 +12,7 @@ body{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	overflow: hidden;
 
 }
 #bigCircle {
@@ -43,8 +44,23 @@ body{
 	-webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
 	/* http://bennettfeely.com/clippy/ */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
-
+#shine {
+	height: 200px;
+	width: 250px;
+	background-color: white;
+	opacity: .4;
+	-webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);
+clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	transform: translate(-50%, -50%);
+}
 
 
 
