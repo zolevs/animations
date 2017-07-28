@@ -190,6 +190,6 @@
 - 25.07 - Fixed background (attachment) /other - fixedBackground/
 - 26.07 - Hexagonal icon animation /icon animation - hexagonal/
 - 27.07 - Search box animation /icon animation - searchBox/	:mag:
-
+- 28.07 - Captain america logo /icon animation - captainAmerica/
 
 
