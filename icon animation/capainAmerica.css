@@ -1,7 +1,8 @@
 body{
-	margin: 0;
-	padding: 0;
-	background: radial-gradient(#0288d1,#01579b);
+	/*margin: 0;*/
+	/*padding: 0;*/
+	/*background: radial-gradient(#0288d1,#01579b);*/
+	background: radial-gradient(circle, #0288d1 , #01579b);
 }
 #main {
 	height: 280px;
@@ -22,9 +23,10 @@ body{
 	border-radius: 50%;
 	border: 15px solid #e53935;
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	/*top: 0%;*/
+	/*left: 0%;*/
+	/*transform: translate(-50%, -50%);*/
+	animation: 5s move infinite linear;
 }
 #smallCircle{
 	height: 150px;
@@ -48,20 +50,30 @@ body{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+
 }
 #shine {
 	height: 200px;
 	width: 250px;
 	background-color: white;
-	opacity: .4;
+	opacity: .3;
 	-webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);
-clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);
+	clip-path: polygon(100% 0, 100% 0, 100% 100%, 0 100%);
 	position: absolute;
 	top: 15%;
 	left: 10%;
 	transform: translate(-50%, -50%);
 }
-
+@-webkit-keyframes move{
+	from{
+		transform: translate(-50%, -50%);
+		transform: rotate(0deg);
+	}
+	to {
+		transform: translate(-50%, -50%);
+		transform: rotate(360deg);
+	}
+}
 
 
 
