@@ -192,4 +192,7 @@
 - 27.07 - Search box animation /icon animation - searchBox/	:mag:
 - 28.07 - Captain america logo /icon animation - captainAmerica/
 
+ :alien:
+---
+
 - 03.07 - Fill image with color /image - colorFill/
