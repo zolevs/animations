@@ -196,3 +196,8 @@
 ---
 
 - 03.07 - Fill image with color /image - colorFill/
+- 03.07 - Glowing effect /icon animation - glowingIcon/
+
+
+
+
