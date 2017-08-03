@@ -42,5 +42,11 @@ ul li a:before {
 	z-index: -1;
 }
 ul li a:hover:before {
-	transform: scale(1.2);
+	transform: scale(1.1);
+	box-shadow: 0 0 25px #ffee10;
+}
+ul li a:hover {
+	color: #ccbb10;
+	box-shadow: 0 0 5px #ffee10;
+	/*text-shadow: 0 0 5px #ffee10;*/
 }
