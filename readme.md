@@ -198,6 +198,6 @@
 - 03.08 - Fill image with color /image - colorFill/
 - 03.08 - Glowing effect /icon animation - glowingIcon/
 - 04.08 - Background move on Mouse move /image - backgroundMove/ :sunny::sunny:
-
+- 04.08 - Background color stripes animation /effects - colorsAnimation/ :sunny:
 
 
