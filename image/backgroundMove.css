@@ -1,0 +1,12 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.banner {
+	width: 100vW;
+	height: 100vh;
+	background:url(bycicle.jpg);
+	background-repeat: no-repeat;
+	/*background-size: cover;*/
+	background-size: calc(100% + 50px);
+}
