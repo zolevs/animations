@@ -38,14 +38,50 @@ ul li {
 		background: #e5e330;
 	}
 	100% {
-		background: #ac30e5
-;
+		background: #ac30e5;
 	}
 
 }
-
-
-
+ul li:nth-child(1){
+	animation-delay: .2s;
+	z-index: 10;
+}
+ul li:nth-child(2){
+	animation-delay: .4s;
+	z-index:9;
+}
+ul li:nth-child(3){
+	animation-delay: .6s;
+	z-index: 8;
+}
+ul li:nth-child(4){
+	animation-delay: .8s;
+	z-index: 7;
+}
+ul li:nth-child(5){
+	animation-delay: 1s;
+	z-index: 6;
+}
+ul li:nth-child(6){
+	animation-delay: 1.2s;
+	z-index: 5;
+}
+ul li:nth-child(7){
+	animation-delay: 1.4s;
+	z-index: 4;
+}
+ul li:nth-child(8){
+	animation-delay: 1.6s;
+	z-index: 3;
+}
+ul li:nth-child(9){
+	animation-delay: 1.8s;
+	z-index: 2;
+}
+ul li:nth-child(10){
+	animation-delay: 2s;
+	z-index: 1;
+}
 
 /*
 #ac30e5
