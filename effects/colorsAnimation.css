@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding:0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+}
+ul li {
+	list-style: none;
+	width: 10%;
+	height: 100%;
+	background: transparent;
+	box-shadow: 5px 0px 5px rgba(0,0,0,.2);
+	animation: bgColor infinite linear 5s;
+}
+
+@keyframes bgColor {
+	0% {
+		background: #ac30e5;
+	}
+	20% {
+		background: #ff00d2;
+	}
+	40% {
+		background: #309fe5;
+	}
+	60% {
+		background: #30e54e;
+	}
+	80% {
+		background: #e5e330;
+	}
+	100% {
+		background: #ac30e5
+;
+	}
+
+}
+
+
+
+
+/*
+#ac30e5
+#ff00d2
+#309fe5
+#30e54e
+#e5e330
+#ac30e5
+
+
+*/
