@@ -195,9 +195,9 @@
  :alien:
 ---
 
-- 03.07 - Fill image with color /image - colorFill/
-- 03.07 - Glowing effect /icon animation - glowingIcon/
-
+- 03.08 - Fill image with color /image - colorFill/
+- 03.08 - Glowing effect /icon animation - glowingIcon/
+- 04.08 - Background move on Mouse move /image - backgroundMove/ :sunny::sunny:
 
 
 
