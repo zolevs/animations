@@ -5,12 +5,16 @@
 		Sticky Menu
 	</title>
 	<link rel="stylesheet" type="text/css" href="stickyMenu.css">
+	<script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
 </head>
 <body>
 	<div class="text">
 		<h1>Sticky menu navigation</h1>
 	</div>
-	<ul>
+	<ul class="menu">
 		<li><a href="#">Home</a></li>
 		<li><a href="#">About</a></li>
 		<li><a href="#">Service</a></li>
@@ -22,5 +26,15 @@
 	<section></section>
 	<section></section>
 	<section></section>
+
+	<script type="text/javascript">
+		$(window).scroll(function(){
+			if($(this).scrollTop()>100){
+				$(".menu").addClass("sticky");
+			} else {
+				$(".menu").removeClass("sticky");
+			}
+		})
+	</script>
 </body>
 </html>
