@@ -1,6 +1,6 @@
 body {
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px>>;
 	background-color: #faee98;
 }
 #main {
@@ -12,7 +12,7 @@ body {
 	border-radius: 5px;
 	background-image: url('bycicle.jpg');
 	background-size: 15% 35%;
-	background-repeat:no-repeat;
+	background-repeat: no-repeat;
 	background-position: 95% 110%;
 	background-attachment: fixed;
 	position: absolute;
