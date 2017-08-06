@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Fill</title>
+	<link rel="stylesheet" type="text/css" href="colorFill_jquery.css">
+	<script
+  src="http://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#main").mousemove(function(){
+				// $val = event.clientX;
+				// $("#frame").text($val);
+
+				$val = event.clientX-185;
+				if($val<=995 && $val >= 0){
+					$("#separator").css("left",$val);
+					$("#frame").css("width", 1000);
+				}
+			});
+		});
+	</script>
+
+</head>
+<body>
+	<div id="main">
+		<div id="separator"></div>
+		<div id="frame"></div>
+	</div>
+</body>
+</html>
