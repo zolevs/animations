@@ -200,4 +200,4 @@
 - 04.08 - Background move on Mouse move /image - backgroundMove/ :sunny::sunny:
 - 04.08 - Background color stripes animation /effects - colorsAnimation/ :sunny:
 - 05.08 - Sticky menu /slide_menu - stickyMenu/
-
+- 06.08 - Fill color effect with jquery /image - colorFill_jquery/
