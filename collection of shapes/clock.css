@@ -13,7 +13,8 @@ body {
 	height: 200px;
 	border: 15px solid #ff5f5f;
 	border-radius: 50%;
-	background: #fff;
+	background: url(clock.jpg);
+	background-size: cover;
 	box-shadow: -2px 2px #e23232, inset 0 0 20px rgba(0,0,0,.5);
 }
 .clock:before {
