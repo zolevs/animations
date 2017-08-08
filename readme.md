@@ -202,3 +202,4 @@
 - 05.08 - Sticky menu /slide_menu - stickyMenu/
 - 06.08 - Fill color effect with jquery /image - colorFill_jquery/
 - 07.08 - Analog clock /collection of shapes - clock/
+- 08.08 - Image info box /image hover - infoHoverBox/
