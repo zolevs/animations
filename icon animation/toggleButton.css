@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #4441d3;
+}
+#main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+}
+#main input {
+	position: absolute;
+	-webkit-appearance: none;
+	/*left: 50px;*/
+}
+#custom {
+	width: 40px;
+	height: 14px;
+	background-color: rgba(0,0,0,.5);
+	display: inline-block;
+	border-radius: 14px;
+	transition: all .3s;
+}
+#circle {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: -3px;
+	left: 0;
+	background-color: #fff;
+	box-shadow: 0 1px 5px 0 rgba(0,0,0,.4);
+	border-radius: 50%;
+	transition: all .3s;
+}
+
+#main input:checked + #custom{
+	background-color: #83b1f4;
+}
+#main input:checked + #custom #circle {
+	background-color: #4285fa;
+	left: 22px;
+}
