@@ -204,3 +204,4 @@
 - 07.08 - Analog clock /collection of shapes - clock/
 - 08.08 - Image info box /image hover - infoHoverBox/
 - 09.08 - Toggle button /icon animation - toggleButton/
+- 10.08 - Box Icon /icon animation - mediaIcon/
