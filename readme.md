@@ -207,3 +207,4 @@
 - 10.08 - Box Icon /icon animation - mediaIcon/
 - 12.08 - Glowing icon shadow /effect - glowingIcon/
 - 12.08 - Skyline scroll animation /effect - skyline/ :bank: :house: :school:
+- 13.08 - Spinner animation /other - spinner/
