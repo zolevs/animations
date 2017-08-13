@@ -20,6 +20,7 @@ h1 {
 	/*background-color: red;*/
 	margin: auto;
 	position: relative;
+	animation: anim 2s infinite ease-out;
 }
 .box:after {
 	content: "";
@@ -74,4 +75,12 @@ span:nth-child(2){
 span:nth-child(3){
 	left: 36%;
 	top: 64%;
+}
+@keyframes anim {
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
 }
