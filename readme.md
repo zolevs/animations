@@ -208,3 +208,4 @@
 - 12.08 - Glowing icon shadow /effect - glowingIcon/
 - 12.08 - Skyline scroll animation /effect - skyline/ :bank: :house: :school:
 - 13.08 - Spinner animation /other - spinner/
+- 14.08 - Transparent button /button - transparent/ 	:running::running:
