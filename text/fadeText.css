@@ -1,0 +1,20 @@
+body {
+	background: url('fill.jpg') ;
+	background-size: cover;
+	background-attachment: fixed;
+}
+p{
+	font-size: 1.5em;
+}
+.fadeEdge > p{
+	/*color: red;*/
+	padding: 8px;
+	background: linear-gradient(transparent, #fff 10%, #fff 90%);
+	background-attachment: fixed;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+.fadedEdge {
+	overflow: auto;
+	height: 100%;
+}
