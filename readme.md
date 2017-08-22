@@ -210,3 +210,4 @@
 - 13.08 - Spinner animation /other - spinner/
 - 14.08 - Transparent button /button - transparent/ 	:running::running:
 - 18.08 - Faded text /text - fadeText/
+- 22.08 - Neon light /text - neonLight/
