@@ -1,4 +1,4 @@
-##CSS Animations
+﻿##CSS Animations
 ---
 
 - 21.12 - Icon animation
@@ -211,3 +211,4 @@
 - 14.08 - Transparent button /button - transparent/ 	:running::running:
 - 18.08 - Faded text /text - fadeText/
 - 22.08 - Neon light /text - neonLight/
+- 22.08 - HP 840
