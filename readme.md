@@ -212,4 +212,4 @@
 - 18.08 - Faded text /text - fadeText/
 - 22.08 - Neon light /text - neonLight/
 - 22.08 - HP 840
-- 23.08 - Background pattern scroll /background_pulse - patternAnim/
+- 23.08 - Background pattern scroll /background_pulse - patternAnim/ :running:
