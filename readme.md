@@ -213,3 +213,4 @@
 - 22.08 - Neon light /text - neonLight/
 - 22.08 - HP 840
 - 23.08 - Background pattern scroll /background_pulse - patternAnim/ :running: :running: :running:
+- 25.08 - Text effect /effect - textEffect/
