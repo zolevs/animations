@@ -1,0 +1,22 @@
+body {
+	font-family: 'Baloo Tammudu', cursive;
+	background: #a740e6;
+	margin: 0;
+	padding: 0;
+}
+.center {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+}
+.text {
+	position: relative;
+	display: block;
+	font-size: 7em;
+	color: #a740e6;
+	line-height: .9em;
+	text-transform: uppercase;
+	text-shadow: -1px 1px 1px rgba(0,0,0,.5), 1px -1px 0 rgba(255,255,255,1);
+}
