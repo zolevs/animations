@@ -1,4 +1,4 @@
-﻿##CSS Animations
+##CSS Animations
 ---
 
 - 21.12 - Icon animation
@@ -215,3 +215,4 @@
 - 23.08 - Background pattern scroll /background_pulse - patternAnim/ :running: :running: :running:
 - 25.08 - Text effect /effect - textEffect/
 - 28.08 - Side slider /image hover - sideSlide/
+- 29.08 - Embossed text /text - embosseText/
