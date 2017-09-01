@@ -220,4 +220,4 @@
  :alien:
 ---
 
-- 01.08 - Double hover effect /image hover - doubleEffect/
+- 01.09 - Double hover effect /image hover - doubleEffect/
