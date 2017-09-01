@@ -216,3 +216,8 @@
 - 25.08 - Text effect /effect - textEffect/
 - 28.08 - Side slider /image hover - sideSlide/
 - 29.08 - Embossed text /text - embosseText/
+
+ :alien:
+---
+
+
