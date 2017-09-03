@@ -1,0 +1,25 @@
+
+body {
+	background-color: #fff;
+}
+
+path{
+	fill: #fff;
+	stroke: #000;
+	stroke-dasharray: 900;
+	animation: anim 9s infinite;
+}
+path#H{
+	/* ovo sam ja dodavao ovaj id*/
+}
+@keyframes anim {
+	0%{
+		stroke-dasharray: 0;
+	}
+	50%{
+		stroke-dasharray: 900;
+	}
+	100%{
+		stroke-dasharray: 0;
+	}
+}
