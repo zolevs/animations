@@ -221,4 +221,4 @@
 ---
 
 - 01.09 - Double hover effect /image hover - doubleEffect/
-- 03.09 - SVG Logo animation /SVG - mySVG/
+- 03.09 - SVG Logo animation /SVG - mySVG/	:lollipop:
