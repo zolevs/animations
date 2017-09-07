@@ -1,0 +1,48 @@
+html body{
+	margin: 0;
+	padding: 0;
+	background-color: #efefef;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+.btn1{
+	position: relative;
+	background: #337ab7;
+	border-width: 0;
+	padding: 15px 20px;
+	font-weight: 700;
+	cursor: pointer;
+	overflow: hidden;
+	color: #fff;
+}
+.btn1::before{
+	position: absolute;
+	content: '';
+	bottom: -110%;
+	right: 0;
+	border-right: 2.6rem solid #000;
+	border-top: 2.6rem solid transparent;
+	opacity: 0.2;
+	transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.btn1::after{
+	position: absolute;
+	content: '';
+	top: -100%;
+	right: 0;
+	border-right: 2.6rem solid #fff;
+	border-bottom: 2.6rem solid transparent;
+	opacity: 0.2;
+	transition: all 0.9s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.btn1:hover::before {
+	bottom: 0;
+
+}
+.btn1:hover::after{
+	top:0;
+}
+.btn1:hover {
+	box-shadow: 0 0 7px 1px #333;
+}
