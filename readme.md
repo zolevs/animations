@@ -222,3 +222,4 @@
 
 - 01.09 - Double hover effect /image hover - doubleEffect/
 - 03.09 - SVG Logo animation /SVG - mySVG/	:lollipop:
+- 04.09 - SVG line animation with WalkwayJS /SVG - lineAnimationWalkwayJS/

@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Droid Sans', sans-serif;
+
+}
+.button {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 120px;
+	height: 45px;
+	text-align: center;
+	line-height:45px;
+	background: #3447d6;
+	font-size: 20px;
+	color: #fff;
+	cursor: pointer;
+}
+.button:before, .button:after{
+	content: '';
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	transition: all .3s ease;
+}
+.button:before {
+	border-top: 2px solid #2235d6;
+	border-left: 2px solid #2235d6;
+	top: -5px;
+	left: -5px;
+}
+.button:after {
+	border-right: 2px solid #2235d6;
+	border-bottom: 2px solid #2235d6;
+	right: -5px;
+	bottom: -5px;
+}
+.button:hover:before, .button:hover:after {
+	width: 95%;
+	height: 95%;
+
+}
