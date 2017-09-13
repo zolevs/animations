@@ -225,4 +225,4 @@
 - 04.09 - SVG line animation with WalkwayJS /SVG - lineAnimationWalkwayJS/
 - 07.09 - Button border effect /button border - buttonOpositeSide/
 - 07.09 - Button cross border animation /button border - crossButton/
-- 12.09 - New 3D text effect /text - new3DText/	:running:
+- 13.09 - New 3D text effect /text - new3DText/	:running:
