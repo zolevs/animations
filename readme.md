@@ -226,3 +226,4 @@
 - 07.09 - Button border effect /button border - buttonOpositeSide/
 - 07.09 - Button cross border animation /button border - crossButton/
 - 13.09 - New 3D text effect /text - new3DText/	:running:
+- 14.09 - Box shadow /panel - shadowBox/	:running:
