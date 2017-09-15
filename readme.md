@@ -228,3 +228,4 @@
 - 13.09 - New 3D text effect /text - new3DText/	:running:
 - 14.09 - Box shadow /panel - shadowBox/	:running:
 - 15.09 - mail progress preloader /preloader - gmailPreloader/
+- 15.09 - line progress bar preloader /preloader - materialProgress/
