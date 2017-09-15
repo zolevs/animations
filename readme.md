@@ -227,3 +227,4 @@
 - 07.09 - Button cross border animation /button border - crossButton/
 - 13.09 - New 3D text effect /text - new3DText/	:running:
 - 14.09 - Box shadow /panel - shadowBox/	:running:
+- 15.09 - mail progress preloader /preloader - gmailPreloader/
