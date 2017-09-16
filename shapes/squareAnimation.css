@@ -17,7 +17,7 @@ body{
 	border-top: none;
 	position: absolute;
 	transform-origin: bottom;
-	animation: rotate 6s linear alternate;
+	animation: rotate 6s linear infinite;
 }
 @keyframes rotate{
 	0%{
