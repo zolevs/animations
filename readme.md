@@ -230,3 +230,4 @@
 - 15.09 - mail progress preloader /preloader - gmailPreloader/
 - 15.09 - line progress bar preloader /preloader - materialProgress/
 - 16.09 - Squre animation /shapes - sqaureAnimation/
+- 16.09 - Triangles animtion /shapes - triangleAnimatio/
