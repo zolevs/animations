@@ -232,3 +232,4 @@
 - 16.09 - Squre animation /shapes - sqaureAnimation/
 - 16.09 - Triangles animtion /shapes - triangleAnimatio/
 - 17.09 - Strech button /button - strechButton/
+- 18.09 - Split image info box /panel - splitImage/
