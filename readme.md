@@ -235,3 +235,4 @@
 - 18.09 - Split image info box /panel - splitImage/
 - 19.09 - Border circle animation /circle preloader - circlePulse/	:o:
 - 19.09 - Image zoom /image - slideZoom/
+- 21.09 - Toggle switch /other - toggleSwitch/
