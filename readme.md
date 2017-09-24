@@ -238,3 +238,4 @@
 - 21.09 - Toggle switch /other - toggleSwitch/
 - 22.09 - Slide text using css /sliding - slidingText/
 - 23.09 - Text shdow animation /text - textShadowAnimation/
+- 24.09 - Transparent text /text - transparentText/	:blush:
