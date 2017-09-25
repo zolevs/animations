@@ -239,3 +239,5 @@
 - 22.09 - Slide text using css /sliding - slidingText/
 - 23.09 - Text shdow animation /text - textShadowAnimation/
 - 24.09 - Transparent text /text - transparentText/	:blush:
+- 25.09 - Rotate box preloader /preloader - boxRotate/
+
