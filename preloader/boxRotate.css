@@ -1,0 +1,25 @@
+body {
+	background-color: #06c;
+}
+h2{
+	margin: 300px auto;
+	text-align: center;
+}
+.loading {
+	width: 50px;
+	height: 50px;
+	background-color: #fff;
+	margin: -250px auto;
+	animation: rotation 1.5s infinite ease-in-out;
+}
+@keyframes rotation{
+	0% {
+		transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+	}
+	50%{
+		transform: perspective(120px) rotateX(-180deg) rotateY(0deg);
+	}
+	100%{
+		transform: perspective(120px) rotateX(-180deg) rotateY(180deg);
+	}
+}
