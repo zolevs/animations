@@ -240,4 +240,4 @@
 - 23.09 - Text shdow animation /text - textShadowAnimation/
 - 24.09 - Transparent text /text - transparentText/	:blush:
 - 25.09 - Rotate box preloader /preloader - boxRotate/
-
+- 26.09 - Transform shape /shapes - transformShape/	:mag:
