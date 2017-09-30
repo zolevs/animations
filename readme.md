@@ -242,3 +242,4 @@
 - 25.09 - Rotate box preloader /preloader - boxRotate/
 - 26.09 - Transform shape /shapes - transformShape/	:mag:
 - 27.09 - Simple image rotate effect /image - imageEffect/	:flashlight:
+
