@@ -243,3 +243,4 @@
 - 26.09 - Transform shape /shapes - transformShape/	:mag:
 - 27.09 - Simple image rotate effect /image - imageEffect/	:flashlight:
 - 30.09 - Accordion /panel - accordionMenu/
+- 30.09 - Creative shape /shapes - creativeShape/
