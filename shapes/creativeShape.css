@@ -39,9 +39,26 @@ body {
 }
 .box:hover:before{
 	border-radius: 10px;
+	background: #10852e;
 	transform: rotate(-30deg);
 }
 .box:hover:after{
 	border-radius: 10px;
+	background: #32a74f;
 	transform: rotate(30deg);
+}
+h1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 10;
+	margin: 0;
+	padding: 0;
+	color: #32a74f;
+	font-size: 3em;
+	/* remove margin and padding to center element */
+}
+.box:hover h1 {
+	color: #10852e;
 }
