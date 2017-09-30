@@ -244,3 +244,5 @@
 - 27.09 - Simple image rotate effect /image - imageEffect/	:flashlight:
 - 30.09 - Accordion /panel - accordionMenu/
 - 30.09 - Creative shape /shapes - creativeShape/
+
+- 01.10 - Animation search box /slide_menu - searchMenu/
