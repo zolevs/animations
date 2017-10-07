@@ -251,3 +251,4 @@
 - 01.10 - Animation search box /slide_menu - searchMenu/
 - 03.10 - Search form /slide_menu - searchMenu/
 - 04.10 - Hamburger menu /shapes - hamburgerMenu/	:dash:
+- 07.10 - Sidebar menu /side_menu - sidebarMenu/
