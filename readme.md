@@ -252,4 +252,4 @@
 - 03.10 - Search form /slide_menu - searchMenu/
 - 04.10 - Hamburger menu /shapes - hamburgerMenu/	:dash:
 - 07.10 - Sidebar menu /side_menu - sidebarMenu/
-- 09.10 - Info icon panel /header - iconInfo/
+- 10.10 - Circle preloader /preloader - circlePreloader/
