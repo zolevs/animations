@@ -1,0 +1,19 @@
+body {
+	background-color: skyblue;
+}
+.spinner{
+	width: 30px;
+	height: 30px;
+	/*background-color: #ddd;*/
+	border: 6px solid #000;
+	border-radius: 50%;
+	border-left-color: #333;
+	border-bottom-color: #555;
+	border-right-color: transparent;
+	animation: anim .7s linear infinite;
+}
+@keyframes anim{
+	100%{
+		transform: rotate(360deg);
+	}
+}
