@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>View grid & list</title>
+	<link rel="stylesheet" type="text/css" href="listImage.css">
+	<script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+	<ul>
+		<a href="#" class="btn"></a>
+	</ul>
+	<div class="content">
+		<div class="img">
+			<img src="img/bee.jpeg">
+		</div>
+		<div class="img">
+			<img src="img/flowers.jpeg" alt="">
+		</div>
+		<div class="img">
+			<img src="img/fly.jpeg" alt="">
+		</div>
+		<div class="img">
+			<img src="img/office.jpeg" alt="">
+		</div>
+		<div class="img">
+			<img src="img/purple.jpeg" alt="">
+		</div>
+		<div class="img">
+			<img src="img/sunflower.jpeg" alt="">
+		</div>
+		<div class="img">
+			<img src="img/train.jpeg" alt="">
+		</div>
+		<div class="img">
+			<img src="img/tulips.jpeg" alt="">
+		</div>
+		<div class="img">
+			<img src="img/white.jpeg" alt="">
+		</div>
+
+	</div>
+	<script type="text/javascript">
+		$(".btn").on("click",function(){
+			$('.btn').toggleClass("btnc");
+			$('.img').toggleClass("imgc");
+		})
+	</script>
+</body>
+</html>
