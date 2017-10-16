@@ -254,3 +254,4 @@
 - 07.10 - Sidebar menu /side_menu - sidebarMenu/
 - 10.10 - Circle preloader /preloader - circlePreloader/
 - 13.10 - List and grid style for image galery /image - listImage/
+- 16.10 - Check box /other - checkBox/
