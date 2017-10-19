@@ -1,0 +1,47 @@
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #f1f1f1;
+	font-family: sans-serif;
+}
+.box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.icon{
+	width: 120px;
+	position: relative;
+	display: inline-block;
+}
+.icon i{
+	color: black;
+	font-size: 80px;
+	display: block;
+	text-align: center;
+}
+
+.icon span {
+	position: relative;
+	width: 120px;
+	background-color: #000;
+	color: #fff;
+	padding: 5px 0;
+	text-align: center;
+	border-radius: 8px;
+	display: block;
+	margin: 0 auto;
+}
+.icon span:before{
+	content: '';
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: -6px;
+	background-color: black;
+	z-index: -1;
+	left: 50%;
+	transform: translateX(-50%) rotate(45deg);
+}
