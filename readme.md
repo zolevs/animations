@@ -255,3 +255,4 @@
 - 10.10 - Circle preloader /preloader - circlePreloader/
 - 13.10 - List and grid style for image galery /image - listImage/
 - 16.10 - Check box /other - checkBox/
+- 18.10 - Tooltip /arrow navigation - tooltipArrow/
