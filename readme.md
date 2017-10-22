@@ -257,3 +257,4 @@
 - 16.10 - Check box /other - checkBox/
 - 17.10 - :basketball: :basketball:
 - 18.10 - Tooltip /arrow navigation - tooltipArrow/
+- 22.10 - Full screen menu /slide_menu - fullScreenMenu/
