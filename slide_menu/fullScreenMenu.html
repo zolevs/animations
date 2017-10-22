@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Full page menu</title>
+	<link rel="stylesheet" type="text/css" href="fullScreenMenu.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<script  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+	<button class="bars"><i class="fa fa-bars" aria-hidden="true"></i></button>
+	<div class="navigation">
+		<button class="close"><i class="fa fa-times-circle" aria-hidden="true"></i></button>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="">Contact</a></li>
+			<li><a href="">Gallety</a></li>
+		</ul>
+	</div>
+	<div class="container">
+	<h1>Full page navigation</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ex laudantium, quaerat dolor, officiis eligendi architecto cumque praesentium reiciendis, quo qui quidem tempore illum voluptates aut expedita ipsa dignissimos accusantium iusto officia, veritatis dolorem sit placeat laboriosam earum. Hic sunt explicabo beatae illo itaque pariatur facilis rerum eligendi delectus illum, nulla consequatur nobis eveniet eos. Minima animi at, cumque expedita blanditiis quidem laudantium, tenetur, error aliquid illum aperiam beatae officia sapiente minus ratione praesentium, debitis reiciendis. Perferendis nostrum recusandae voluptatibus!</p>
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.bars').click(function(){
+				$('.navigation').addClass('active');
+			});
+			$('.close').click(function(){
+				$('.navigation').removeClass('active');
+			});
+		});
+	</script>
+</body>
+</html>
