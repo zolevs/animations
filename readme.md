@@ -258,3 +258,4 @@
 - 17.10 - :basketball: :basketball:
 - 18.10 - Tooltip /arrow navigation - tooltipArrow/
 - 22.10 - Full screen menu /slide_menu - fullScreenMenu/
+- 23.10 - Dots animation /circle preloader - dotsAnimation/
