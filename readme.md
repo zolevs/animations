@@ -260,3 +260,4 @@
 - 22.10 - Full screen menu /slide_menu - fullScreenMenu/
 - 23.10 - Dots animation /circle preloader - dotsAnimation/
 - 24.10 - Info box /label - infoBox/
+- 28.10 - 3D logo /3d_button - 3dlogo/ :nail_care:
