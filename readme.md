@@ -267,3 +267,4 @@
 ---
 
 - 01.11 - Uploading button /button - uploadingButton/
+- 03.11 - Enter animation /fade text - welcomeText/
