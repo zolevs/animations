@@ -268,3 +268,4 @@
 
 - 01.11 - Uploading button /button - uploadingButton/
 - 03.11 - Enter animation /fade text - welcomeText/
+- 05.11 - 3D info fliping card /3d flip - 3dinfoCard/
