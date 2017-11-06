@@ -37,8 +37,10 @@ body{
 	background: #fff;
 	transition: 2s;
 	mix-blend-mode: difference; /* ****** */
+	/*transform: scale(0);*/
 }
 .container:hover:after{
+	/*transform: scale(1.5);*/
 	left: 50%;
 }
 h1{
