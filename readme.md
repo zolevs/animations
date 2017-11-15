@@ -271,3 +271,4 @@
 - 05.11 - 3D info fliping card /3d flip - 3dinfoCard/
 - 06.11 - Black and white hover effect /panel - blackandwhite/
 - 07.11 - Button hover animation /button - someButtonEffect/
+- 15.11 - Colorful alert message /label - colorfulMenssage/
