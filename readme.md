@@ -272,3 +272,5 @@
 - 06.11 - Black and white hover effect /panel - blackandwhite/
 - 07.11 - Button hover animation /button - someButtonEffect/
 - 15.11 - Colorful alert message /label - colorfulMenssage/
+- 16.11 - Circle preloader blue version X axis /circle preloader - ballsPreloader/
+- 16.11 - Circle preloader yellow version  Y axis /ball animation - ballsPreloader/
