@@ -274,3 +274,4 @@
 - 15.11 - Colorful alert message /label - colorfulMenssage/
 - 16.11 - Circle preloader blue version X axis /circle preloader - ballsPreloader/	:ant:
 - 16.11 - Circle preloader yellow version  Y axis /ball animation - ballsPreloader/
+- 17.11 - Hamburger menu /arrow navigation - hamburger/	:boom:
