@@ -12,7 +12,7 @@ body {
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
-	background: url(back_pattern.png);
+	background: url(avatar.jpg);
 	background-size: cover;
 	animation: anim 5s linear infinite;
 	box-shadow: 0 0 0 15px rgba(0,0,255,.1), 0 0 0 35px rgba(0,0,255,.1), 0 0 0 55px rgba(0,0,255,.1), 0 0 0 75px rgba(0,0,255,.1), 0 0 0 95px rgba(0,0,255,.1);
@@ -22,7 +22,7 @@ body {
 		box-shadow: 0 0 0 15px rgba(0,0,255,.1), 0 0 0 35px rgba(0,0,255,.1), 0 0 0 55px rgba(0,0,255,.1), 0 0 0 75px rgba(0,0,255,.1), 0 0 0 95px rgba(0,0,255,.1);
 	}
 	50%{
-		box-shadow: 0 0 0 35px rgba(0,0,255,.1), 0 0 0 65px rgba(0,0,255,.1), 0 0 0 85px rgba(0,0,255,.1), 0 0 0 105px rgba(0,0,255,.1), 0 0 0 135px rgba(0,0,255,.1);
+		box-shadow: 0 0 0 35px rgba(0,0,255,.1), 0 0 0 65px rgba(0,0,255,.1), 0 0 0 95px rgba(0,0,255,.1), 0 0 0 115px rgba(0,0,255,.1), 0 0 0 145px rgba(0,0,255,.1);
 	}
 	100%{
 		box-shadow: 0 0 0 15px rgba(0,0,255,.1), 0 0 0 35px rgba(0,0,255,.1), 0 0 0 55px rgba(0,0,255,.1), 0 0 0 75px rgba(0,0,255,.1), 0 0 0 95px rgba(0,0,255,.1);
