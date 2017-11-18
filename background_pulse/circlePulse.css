@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #e3e5e8;
+}
+
+.center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: url(back_pattern.png);
+	background-size: cover;
+	animation: anim 5s linear infinite;
+	box-shadow: 0 0 0 15px rgba(0,0,255,.1), 0 0 0 35px rgba(0,0,255,.1), 0 0 0 55px rgba(0,0,255,.1), 0 0 0 75px rgba(0,0,255,.1), 0 0 0 95px rgba(0,0,255,.1);
+}
+@keyframes anim {
+	0%{
+		box-shadow: 0 0 0 15px rgba(0,0,255,.1), 0 0 0 35px rgba(0,0,255,.1), 0 0 0 55px rgba(0,0,255,.1), 0 0 0 75px rgba(0,0,255,.1), 0 0 0 95px rgba(0,0,255,.1);
+	}
+	50%{
+		box-shadow: 0 0 0 35px rgba(0,0,255,.1), 0 0 0 65px rgba(0,0,255,.1), 0 0 0 85px rgba(0,0,255,.1), 0 0 0 105px rgba(0,0,255,.1), 0 0 0 135px rgba(0,0,255,.1);
+	}
+	100%{
+		box-shadow: 0 0 0 15px rgba(0,0,255,.1), 0 0 0 35px rgba(0,0,255,.1), 0 0 0 55px rgba(0,0,255,.1), 0 0 0 75px rgba(0,0,255,.1), 0 0 0 95px rgba(0,0,255,.1);
+	}
+}
