@@ -276,3 +276,4 @@
 - 16.11 - Circle preloader yellow version  Y axis /ball animation - ballsPreloader/
 - 17.11 - Hamburger menu /arrow navigation - hamburger/	:boom:
 - 18.11 - Pulsing background circle /background_pulse - circlePulse/
+- 22.11 - Folding box animation /shapes - foldingCube/
