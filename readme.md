@@ -277,3 +277,4 @@
 - 17.11 - Hamburger menu /arrow navigation - hamburger/	:boom:
 - 18.11 - Pulsing background circle /background_pulse - circlePulse/
 - 22.11 - Folding box animation /shapes - foldingCube/
+- 23.11 - Info panel Zoom In and Out /panel - zoomInOut/
