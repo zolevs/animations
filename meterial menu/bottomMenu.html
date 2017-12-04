@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Buttom Menu</title>
+	<link rel="stylesheet" type="text/css" href="buttomMenu.css">
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="desc">
+		<h1>Bottom Menu Navigation</h1>
+		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente repellat dolorum eveniet iusto autem quis animi tempora, totam dolor modi laudantium nostrum inventore suscipit amet, recusandae, praesentium rerum minima a reprehenderit sunt beatae vitae. Voluptates pariatur minima tempore, earum voluptatem tempora quaerat. Quidem, magnam voluptatem. </p>
+	</div>
+	<a href="#" class="btnm">
+		<span></span>
+		<span></span>
+		<span></span>
+	</a>
+
+	<div class="menu">
+		<a href="#" class="ion-home"></a>
+		<a href="#" class="ion-document-text"></a>
+		<a href="#" class="l1 ion-paperclip"></a>
+		<a href="#" class="l2 ion-calendar"></a>
+		<a href="#" class="ion-trash-a"></a>
+		<a href="#" class="ion-android-options"></a>
+	</div>
+
+
+	<script type="text/javascript">
+		$(".btnm").on("click",function(){
+			$(".btnm").toggleClass("btnn");
+			$(".menu").toggleClass("show");
+		});
+	</script>
+
+</body>
+</html>
