@@ -285,3 +285,4 @@
 ---
 
 - 04.12 - Bottom menu /material menu - bottomMenu/
+- 06.12 - Fade background /background_pulse - fadeBackground/
