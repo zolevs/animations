@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Popup notification</title>
+	<link rel="stylesheet" type="text/css" href="topNotification.css">
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="note">
+		<div class="center">
+			<h1>Hello Lorem ipsum dolor sit amet, consectetur.</h1>
+			<a href="#" class="btn ion-close"></a>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(".btn").on("click",function(){
+			$(".note").toggleClass("hide");
+		})
+	</script>
+</body>
+</html>
