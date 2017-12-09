@@ -287,3 +287,4 @@
 - 04.12 - Bottom menu /material menu - bottomMenu/
 - 06.12 - Fade background /background_pulse - fadeBackground/
 - 07.12 - Wave border radial-gradient /border - borderRadial/
+- 09.12 - Slide from top info box /label - topNotification/
