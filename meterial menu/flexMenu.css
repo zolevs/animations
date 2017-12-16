@@ -1,0 +1,61 @@
+body{
+	background-color: #adadad
+	font-family: Arial, sans-serif;
+}
+nav{
+	width: 65%;
+	margin: 0 auto;
+	display: flex;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+	background: linear-gradient(#2c3e50, #bdc3c7);
+	font-size: 20px;
+	color: #fff;
+	padding: 25px 30px;
+	text-align: center;
+	width: 15%;
+	margin: 1px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.9);
+}
+a:first-child{
+	/* zamenjeno sa first-child = nth-child(1) */
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+a:last-child{
+	/* zamenjeno sa last-child = nth-child(4)*/
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+a:hover {
+	background: linear-gradient(#bdc3c7, #2c3e50 );
+}
+a:active{
+	box-shadow: 0 5px 5px #adadad;
+}
+a:focus{
+	background: linear-gradient(#ecf0f1, #ccc);
+}
+@media (max-width: 720px){
+	nav{
+		flex-direction: column;
+		width: 100%;
+		align-items: center;
+	}
+	a{
+		width: 80%;
+		margin: 1px;
+	}
+	a:first-child{
+	/* zamenjeno sa first-child = nth-child(1) */
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+	a:last-child{
+	/* zamenjeno sa last-child = nth-child(4)*/
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+}
