@@ -291,3 +291,4 @@
 - 09.12 - Slide from top info box /label - topNotification/	:church: :church:
 - 14.12 - Show button /image - showButton/
 - 15.12 - Revael text /panel - revealText/
+- 16.12 - Flex menu /material menu - flexMenu/
