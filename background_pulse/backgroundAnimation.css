@@ -1,0 +1,29 @@
+body {
+	background: linear-gradient(132deg, #ec5218, #1665c1);
+	background-size: 400% 400%;
+	animation: animBackground 10s ease infinite ;
+}
+h1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	font-size: 2.3em;
+	color: #fff;
+	background-color: #000;
+	padding: 5px;
+}
+@keyframes animBackground{
+	0%{
+		background-position: 0% 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0% 50%;
+	}
+}
