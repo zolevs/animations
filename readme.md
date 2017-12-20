@@ -293,3 +293,4 @@
 - 15.12 - Revael text /panel - revealText/
 - 16.12 - Flex menu /material menu - flexMenu/
 - 17.12 - Background color animation /background_pulse - backgroundAnimation/
+- 20.12 - Sliding menu /material menu - slidingMenu/
