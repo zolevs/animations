@@ -294,3 +294,4 @@
 - 16.12 - Flex menu /material menu - flexMenu/
 - 17.12 - Background color animation /background_pulse - backgroundAnimation/
 - 20.12 - Sliding menu /material menu - slidingMenu/
+- 24.12 - Sliding button with gradient /ghost button - gradientButton/
