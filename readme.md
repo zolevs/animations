@@ -296,3 +296,4 @@
 - 20.12 - Sliding menu /material menu - slidingMenu/
 - 24.12 - Sliding button with gradient /ghost button - gradientButton/
 - 25.12 - Glowing icon /ghost button - glowingIcon/
+- 26.12 - Glowing button /ghost button - energyButton/
