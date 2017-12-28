@@ -298,3 +298,4 @@
 - 25.12 - Glowing icon /ghost button - glowingIcon/
 - 26.12 - Glowing button /ghost button - energyButton/
 - 28.12 -  :santa:
+- 28.12 - CSS animation library /panel - coolBanner/
