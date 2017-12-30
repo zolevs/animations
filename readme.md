@@ -299,3 +299,4 @@
 - 26.12 - Glowing button /ghost button - energyButton/
 - 28.12 -  :santa:
 - 28.12 - CSS animation library /panel - coolBanner/
+- 30.12 - Gradient fill with blur filter /effect - gradientFill/
