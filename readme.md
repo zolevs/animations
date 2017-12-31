@@ -300,4 +300,4 @@
 - 28.12 -  :santa:
 - 28.12 - CSS animation library /panel - coolBanner/
 - 30.12 - Gradient fill with blur filter /effect - gradientFill/
-- 31.12 - Custom animation checkbox /label - animatedCheckbox/
+- 31.12 - Custom animation checkbox /label - animatedCheckbox/	:santa:	:santa:
