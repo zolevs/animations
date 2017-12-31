@@ -36,5 +36,13 @@ input[type="checkbox"]:checked+label span:before{
 	right: 3px;
 	bottom: 3px;
 	background: #fff;
-
+	animation: anim 2s linear infinite;
+}
+@keyframes anim {
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg)
+	}
 }
