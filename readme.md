@@ -301,3 +301,8 @@
 - 28.12 - CSS animation library /panel - coolBanner/
 - 30.12 - Gradient fill with blur filter /effect - gradientFill/
 - 31.12 - Custom animation checkbox /label - animatedCheckbox/	:santa:	:santa:
+
+ :alien:
+---
+
+- 01.01 - Input form /label - inputForm/
