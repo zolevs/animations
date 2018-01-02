@@ -1,0 +1,28 @@
+body{
+	margin: 0;
+	padding: 0;
+
+}
+section{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	background: #ff319c url(hd_wall.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+#Layer_1{
+	/*  naziv ID-a je iz svg fajla */
+	position: absolute;
+	bottom:0;
+	width: 100%;
+}
+#Layer_1 path{
+	fill: #fff;
+}
+section.section2{
+	width: 100%;
+	height: 100vh;
+	background: #fff;
+}
