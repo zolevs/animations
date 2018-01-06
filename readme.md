@@ -310,3 +310,4 @@
 - 03.01 - :basketball:
 - 04.01 - :ledger:
 - 05.01 - :ledger:
+- 06.01 - :ledger:
