@@ -322,3 +322,4 @@
 :alien:
 ---
 
+- 01.04 - Sidebar Social icon /icon animation - sideBarIcon/
