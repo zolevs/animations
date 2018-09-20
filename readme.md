@@ -323,3 +323,8 @@
 ---
 
 - 01.04 - Sidebar Social icon /icon animation - sideBarIcon/
+
+:alien:
+---
+
+- 19.09 - glich preloader
