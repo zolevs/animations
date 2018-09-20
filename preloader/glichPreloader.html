@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	body {
+     background: #000;
+     width: 100%;
+     height: 100%;
+	}
+
+	#drawing_container {
+	     position: absolute;
+	     margin: auto;
+	     top: 0;
+	     left: 0;
+	     bottom: 0;
+	     right: 0;
+	     width: 250px;
+	     height: 250px;
+	     color: #fff;
+	}
+	</style>
+</head>
+<body>
+	 <div id="drawing_container">
+          <canvas id="canvas" width="250" height="250"></canvas>
+     </div>
+	<script type="text/javascript">
+		function domloaded() {
+
+     var c = document.getElementById('canvas');
+     var ctx = c.getContext('2d');
+     var j = 0, pixSize = 2, pixCount = 50;
+     for(var r = 0; r < pixCount; r++) {
+          for(var i = 0; i < pixCount; i++) {
+               if(i % pixCount === 0) {
+                    j++;
+               }
+
+               ctx.fillStyle = 'hsl(' + 360 * Math.random() + ', 50%, 50%)';
+               ctx.fillRect(i * pixSize, j * pixSize, 20, 20);
+          }
+     }
+
+     }
+
+     setInterval(domloaded, 150);
+
+	</script>
+</body>
+</html>
