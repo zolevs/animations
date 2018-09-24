@@ -328,3 +328,4 @@
 ---
 
 - 19.09 - glich preloader
+- 24.09 - Search icon animation /effects - searchAnim/
