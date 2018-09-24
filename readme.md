@@ -327,5 +327,11 @@
 :alien:
 ---
 
+<<<<<<< HEAD
 - 19.09 - glich preloader
 - 24.09 - Search icon animation /effects - searchAnim/
+=======
+- 20.07 - Change active button on click /animations - Underline menu -activemenu /
+
+
+>>>>>>> 6bfc004efe3c6234a14a8f57769547e045148b60
