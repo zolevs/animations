@@ -330,8 +330,10 @@
 
 - 19.09 - glich preloader
 - 24.09 - Search icon animation /effects - searchAnim/
-=======
 - 20.07 - Change active button on click /animations - Underline menu -activemenu /
 - 27.09 - Text Block reveal /about - blockReveal/
 
+:alien:
+---
 
+- 06.11 - :dog: :pill:
