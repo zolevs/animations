@@ -337,3 +337,8 @@
 ---
 
 - 06.11 - :dog: :pill:
+
+:alien:
+---
+
+- 30.12 - Background ripple effect /background_pulse - ripple/
