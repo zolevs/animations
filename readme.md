@@ -313,18 +313,18 @@
 - 06.01 - :ledger:
 - 08.01 - :ledger:
 
-:alien:
+ :alien:
 ---
 
 - 27.02 - :ledger:	:mortar_board:
 - 31.03 - 3D button /3d_button - buttonFlip/
 
-:alien:
+ :alien:
 ---
 
 - 01.04 - Sidebar Social icon /icon animation - sideBarIcon/
 
-:alien:
+ :alien:
 ---
 
 
@@ -333,12 +333,16 @@
 - 20.07 - Change active button on click /animations - Underline menu -activemenu /
 - 27.09 - Text Block reveal /about - blockReveal/
 
-:alien:
+ :alien:
 ---
 
 - 06.11 - :dog: :pill:
 
-:alien:
+ :alien:
 ---
 
 - 30.12 - Background ripple effect /background_pulse - ripple/
+
+ :alien:
+---
+
