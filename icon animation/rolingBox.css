@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+.loding-screen{
+	width: 100%;
+	height: 100vh;
+	background-color: #6a89cc;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	display: flex;
+	align-items: center;
+}
+.loding-screen:before{
+	content: " ";
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	background-color: #f8c291;
+	left: 20%;
+	transform: translateX(-50%) rotate(0);
+	border-radius: 15%;
+	animation: loading 4s infinite;
+}
+@keyframes loading {
+	from{
+		transform: translate(-50%) rotate(0deg);
+	} 50% {
+		left: 80%;
+	}
+	to {
+		transform: translate(-50%) rotate(1440deg);
+	}
+}
