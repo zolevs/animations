@@ -355,3 +355,6 @@
 - 09.02 - Button hover effect
 - 23.02 - Animation roling box /icon animation - rollingBox/
 - 25.02 - Animation with info panel /panel - infoPanel/
+
+ :alien:
+---
