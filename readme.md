@@ -360,4 +360,7 @@
 ---
 
 - 17.03 - 3D Scroll text over ribbon /text - 3DTextScroll /
+
 - 19.03 - :broken_heart:
+
+- 21.03 - Thumbnail canvas /image - thumbnail /	:flushed:
