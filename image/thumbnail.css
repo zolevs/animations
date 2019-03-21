@@ -1,0 +1,12 @@
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 100vh;
+}
+canvas{
+	border: 3px solid #333;
+	width: 90%;
+	height: auto;
+}

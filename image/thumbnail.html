@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Thumb nail</title>
+	<link rel="stylesheet" type="text/css" href="thumbnail.css">
+</head>
+<body>
+	<canvas id="canvas"></canvas>
+	<p><img src="bycicle_dark.jpg"></p>
+	<p><img src="house.jpg"></p>
+	<p><img src="nature.jpg"></p>
+<script type="text/javascript">
+	let canvas, ctx, img1, img2, img3;
+	let images = [];
+document.addEventListener('DOMContentLoaded',() => {
+	canvas = document.getElementById('canvas');
+	ctx = canvas.getContext("2d");
+	canvas.width = 1200;
+	canvas.height = 600;
+	img1 = document.createElement("img");
+	img2 = document.createElement("img");
+	img3 = document.createElement("img");
+	img1.addEventListener("load", trackLoads);
+	img2.addEventListener("load", trackLoads);
+	img3.addEventListener("load", trackLoads);
+
+	img1.src = "bycicle_dark.jpg";
+	img2.src = "nature.jpg";
+	img3.src = "house.jpg";
+});
+
+function trackLoads(ev) {
+	let imgObj = {
+		sw: ev.target.naturalWidth,
+		sh: ev.target.naturalHeight * (3/4),
+		img: ev.target
+	};
+	images.push(imgObj);
+	if(images.length === 3){
+		addThumbnails();
+	}
+}
+
+function addThumbnails(){
+	let dx = 0;
+	let dy = 0;
+	let imgCount = 0;
+	for (let r = 0; r<3; r++){
+		for (let c = 0; c < 4; c++){
+			dx = c * 300;
+			dy = r * 200;
+			let imgObj = images[Math.floor(imgCount % 3)];
+			imgCount ++;
+			ctx.drawImage(
+				imgObj.img,
+				0,
+				0,
+				imgObj.sw,
+				imgObj.sh,
+				dx,
+				dy,
+				300,
+				200
+			);
+			// // ctx.drawImage (source, sx, sy, sw, sh, dx, dy, dw, dh)
+		}
+	}
+}
+</script>
+</body>
+
+</html>
