@@ -367,3 +367,5 @@
 - 21.03 - Thumbnail canvas /image - thumbnail /	:flushed:
 
 - 25.03 - :broken_heart:
+- 26.03 - :broken_heart:
+- 28.03 - :broken_heart:
